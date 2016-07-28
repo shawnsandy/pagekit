@@ -1,0 +1,50 @@
+{
+    "name": "shawnsandy/PageKit",
+    "type": "library",
+    "description": "Laravel PageKit",
+    "keywords": [
+        "shawnsandy",
+        "PageKit"
+    ],
+    "homepage": "https://github.com/shawnsandy/pagekit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn Sandy",
+            "email": "shawnsandy04@gmail.com",
+            "homepage": "http://shawnsandy.design",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0||~5.0",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "shawnsandy\\PageKit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "shawnsandy\\PageKit\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "format": "phpcbf --standard=psr2 src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
