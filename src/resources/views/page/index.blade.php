@@ -4,7 +4,14 @@
     <div class="layout-table">
         <div class="layout-row">
             <div class="logo">
-                <img src="/img/site-cover.png" alt="logo">
+                <h1>PAGE.KIT</h1>
+                <p class="lead">
+                    Static pages for Laravel.
+                </p>
+                <p class="">
+                    <a href="/page/about" class="btn btn-link">About</a>
+                    <a href="/page/contact" class="btn btn-link">Contact</a>
+                </p>
             </div>
         </div>
     </div>
@@ -12,7 +19,7 @@
 <footer class="big-nav">
     <div class="layout-table">
         <div class="layout-row">
-            &copy; Shawn Sandy
+            &copy; All right reserved
         </div>
     </div>
 </footer>
