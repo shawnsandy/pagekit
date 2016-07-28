@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('page::layouts.default')
 
 @section('page')
 

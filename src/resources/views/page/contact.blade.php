@@ -2,7 +2,7 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <h1>About us</h1>
+            <h1>Contact Us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus explicabo, id ipsa iure optio pariatur
                 praesentium qui quos similique sit totam voluptate, voluptatum! Accusantium dignissimos dolore omnis quae quasi,
                 suscipit velit voluptates. Quisquam, reprehenderit?</p>
