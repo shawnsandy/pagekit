@@ -13,7 +13,13 @@ class PageKitServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->loadViewsFrom(__DIR__.'/resources/views', 'page');
+
+        $this->publishes([
+            __DIR__.'/resources/views' => resource_path('views/vendor/page'),
+            __DIR__.'/resources/assets' => resource_path('assets/pagekit'),
+        ]);
+
     }
 
     /**
