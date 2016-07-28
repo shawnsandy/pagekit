@@ -1,6 +1,6 @@
 <?php
 
-namespace shawnsandy\PageKit;
+namespace ShawnSandy\PageKit;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,4 +25,5 @@ class PageKitServiceProvider extends ServiceProvider
     {
         //
     }
+
 }

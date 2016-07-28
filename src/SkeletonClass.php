@@ -1,6 +1,6 @@
 <?php
 
-namespace shawnsandy\PageKit;
+namespace ShawnSandy\PageKit;
 
 class SkeletonClass
 {

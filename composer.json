@@ -1,5 +1,5 @@
 {
-    "name": "shawnsandy/PageKit",
+    "name": "shawnsandy/pagekit",
     "type": "library",
     "description": "Laravel PageKit",
     "keywords": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "shawnsandy\\PageKit\\": "src"
+            "ShawnSandy\\PageKit\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "shawnsandy\\PageKit\\": "tests"
+            "ShawnSandy\\PageKit\\": "tests"
         }
     },
     "scripts": {
