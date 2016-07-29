@@ -17,10 +17,10 @@ class PageKitServiceProvider extends ServiceProvider
             require __DIR__.'/routes.php';
         }
 
-        $this->loadViewsFrom(__DIR__.'/resources/views/page', 'page');
+        $this->loadViewsFrom(__DIR__.'/resources/views/pagekit', 'page');
 
         $this->publishes([
-            __DIR__.'/resources/views' => resource_path('views/vendor/page'),
+            __DIR__.'/resources/views' => resource_path('views/pagekit'),
             __DIR__.'/resources/assets' => resource_path('assets/pagekit'),
 
         ], 'views');
