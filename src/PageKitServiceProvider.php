@@ -17,7 +17,7 @@ class PageKitServiceProvider extends ServiceProvider
             require __DIR__.'/routes.php';
         }
 
-        $this->loadViewsFrom(__DIR__.'/resources/views', 'page');
+        $this->loadViewsFrom(__DIR__.'/resources/views/page', 'page');
 
         $this->publishes([
             __DIR__.'/resources/views' => resource_path('views/vendor/page'),
