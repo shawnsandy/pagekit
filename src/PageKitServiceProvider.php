@@ -26,7 +26,7 @@ class PageKitServiceProvider extends ServiceProvider
         ], 'views');
 
         $this->publishes([
-            __DIR__.'/public/css/' => public_path('css/'),
+            __DIR__.'/public/css/pagekit' => public_path('css/pagekit'),
         ], 'public');
 
     }
