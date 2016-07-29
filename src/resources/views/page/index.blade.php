@@ -1,4 +1,4 @@
-@extends('page::layouts.default')
+@extends('page::page-layouts.default')
 @section('page')
 <section class="cover">
     <div class="layout-table">

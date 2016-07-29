@@ -1,4 +1,4 @@
-@extends('page::layouts.main-page')
+@extends('page::page-layouts.main-page')
 @section('content')
     <div class="container">
         <div class="row">
