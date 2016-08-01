@@ -1,0 +1,48 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+$font-size-base: 16px;
+$navbar-height: 100px;
+$input-border-radius: 1px;
+$navbar-margin-bottom: 0;
+$base-padding: 40px;
+$secondary-bg: #337AB7;
+$border-radius-base: 5;
+$btn-border-radius-base: 3px;
+$sidebar-width: 250px;
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html, body {
+  height: 100%;
+}
+
+header {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  font-weight: 100;
+
+}
+
+.layout-table {
+  display: table;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.layout-row {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.cover {
+  height: 80%;
+}
+
+.big-nav {
+ height: 20%;
+}

@@ -20,7 +20,7 @@ class PageKitServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/resources/views/pagekit', 'page');
 
         $this->publishes([
-            __DIR__.'/resources/views' => resource_path('views/pagekit'),
+            __DIR__.'/resources/views' => resource_path('views'),
             __DIR__.'/resources/assets' => resource_path('assets/sass/pagekit'),
 
         ], 'views');
