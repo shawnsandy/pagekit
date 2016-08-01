@@ -16,7 +16,10 @@ html, body {
 }
 
 header {
-  height: 100%;
+    height: 40%;
+    &.landing {
+        height: 80%
+    }
 }
 
 body {
@@ -41,6 +44,7 @@ body {
 }
 .cover {
   height: 80%;
+  background-color: $gray-lighter;
 }
 
 .big-nav {
