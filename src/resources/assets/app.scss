@@ -26,6 +26,7 @@ body {
 
 header {
     height: 30%;
+    background: $gray-lighter;
     &.landing {
         height: 75%
     }
@@ -53,11 +54,7 @@ main, section, footer {
   text-align: center;
   vertical-align: middle;
 }
+
 .cover {
   height: 80%;
-  background-color: $gray-lighter;
-}
-
-.big-nav {
- height: 20%;
 }
