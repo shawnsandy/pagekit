@@ -5763,6 +5763,11 @@ header h1 {
     font-size: 81px;
 }
 
+main, section, footer {
+    padding: 40px 0 40px 0;
+
+}
+
 .layout-table {
     display: table;
     width: 100% !important;
