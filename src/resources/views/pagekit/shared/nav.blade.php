@@ -13,7 +13,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-            PageKit
+                PageKit
             </a>
         </div>
 
