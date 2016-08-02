@@ -1,6 +1,6 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 $font-size-base: 16px;
-$navbar-height: 100px;
+$navbar-height: 80px;
 $input-border-radius: 1px;
 $navbar-margin-bottom: 0;
 $base-padding: 40px;
@@ -15,10 +15,6 @@ html, body {
   height: 100%;
 }
 
-header {
-  height: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -26,6 +22,24 @@ body {
   display: table;
   font-weight: 100;
 
+}
+
+header {
+    height: 30%;
+    &.landing {
+        height: 75%
+    }
+}
+
+header h1 {
+    font-size: 72px;
+}
+
+
+
+main, section, footer {
+    padding-top: $base-padding;
+    padding-bottom: $base-padding;
 }
 
 .layout-table {
@@ -41,6 +55,7 @@ body {
 }
 .cover {
   height: 80%;
+  background-color: $gray-lighter;
 }
 
 .big-nav {
