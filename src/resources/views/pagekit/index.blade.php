@@ -1,28 +1,41 @@
 @extends('page::page-layouts.default')
+
 @section('page')
-<section class="cover">
-    <div class="layout-table">
-        <div class="layout-row">
-            <div class="logo">
-                <h1>PAGE.KIT</h1>
-                <p class="lead">
-                    Static pages for Laravel.
-                </p>
-                <p class="">
-                    <a href="/page/about" class="btn btn-link">About</a>
-                    <a href="/page/contact" class="btn btn-link">Contact</a>
-                </p>
+
+<header class="landing">
+    <section class="cover">
+        <div class="layout-table">
+            <div class="layout-row">
+                <div class="logo">
+                    <h1>Laravel.Page.Kit</h1>
+                    <p class="lead">
+                        Quick start pages for Laravel.
+                    </p>
+                </div>
             </div>
         </div>
+    </section>
+</header>
+
+@include('page::shared.nav')
+
+<section class="sub-header text-center">
+    <div class="container">
+        <h1>
+            Just add content.
+        </h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est error quae nostrum beatae, iusto accusantium repudiandae accusamus veritatis, voluptatum nesciunt dolorem aspernatur saepe a asperiores.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea doloribus similique officiis laudantium ratione praesentium. Voluptatibus, commodi saepe molestias ea iure optio dignissimos. Non, iusto.
+        </p>
+
     </div>
+
 </section>
-<footer class="big-nav">
-    <div class="layout-table">
-        <div class="layout-row">
-            &copy; All right reserved
-        </div>
-    </div>
-</footer>
+
+@include('page::shared.footer')
+
+@endsection
+
 @push('styles')
 <style type="text/css">
     .logo {
@@ -37,4 +50,3 @@
     })
 </script>
 @endpush
-@endsection

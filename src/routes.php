@@ -9,10 +9,10 @@
 Route::group(['prefix' => 'page'], function(){
 
     Route::get('', function(){
-        return view('page::page.index');
+        return view('page::index');
     });
 
     Route::get('{name}', function($name){
-        return view('page::page.'.$name);
+        return view('page::'.$name);
     });
 });

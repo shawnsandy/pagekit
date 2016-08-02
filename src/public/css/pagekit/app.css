@@ -5750,6 +5750,19 @@ body {
     width: 100%;
     display: table; }
 
+header {
+    height: 40%;
+    background-color: #eeeeee;
+}
+
+header.landing {
+    height: 75%;
+}
+
+header h1 {
+    font-size: 81px;
+}
+
 .layout-table {
     display: table;
     width: 100% !important;
