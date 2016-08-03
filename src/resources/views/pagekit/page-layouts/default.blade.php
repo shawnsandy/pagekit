@@ -2,16 +2,14 @@
 <html>
 <head>
 
-    <title>Laravel</title>
-
-    @stack('styles')
+    <title>{{ config('pagekit.title', 'Page Title - PageKit.') }} </title>  
 
     <link rel="stylesheet" href="/css/pagekit/app.css">
-
+    @stack('styles')
 </head>
 
 <body>
-
+page content
 @yield('page')
 </body>
 
