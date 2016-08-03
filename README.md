@@ -8,11 +8,10 @@ Allowing you to deploy and launch a Laravel based marketing / promotional site i
 ### Installation
 
 ```
+
 composer require shawnsandy/pagekit
+
 ```
-
-
-
 
 __Publish the pagekit assets__
 
@@ -51,15 +50,16 @@ History
 
 ### Change Log
 
-- Add a built in page editor
+V.1.3.1 BETA
 
-### Credits
+- Added package config file
+- Updated the read-me
+- Minor changes to layout/views 
 
-TODO: Write credits
 
 ### License
 
-TODO: Modify license
+TODO: Modify [licence.md](LICENCE.md)
 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
