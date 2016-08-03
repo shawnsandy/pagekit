@@ -5738,9 +5738,6 @@ html, body {
 
 header {
     height: 40%;
-    &.landing {
-        height: 80%
-    }
 
 }
 
@@ -5752,15 +5749,26 @@ body {
 
 header {
     height: 40%;
+    max-height: 300px;
     background-color: #eeeeee;
 }
 
 header.landing {
     height: 75%;
+    max-height: 600px;
 }
 
 header h1 {
-    font-size: 81px;
+    font-size: 72px;
+}
+
+main, section, footer {
+    padding: 40px 0 40px 0;
+
+}
+
+footer {
+    background-color: #eeeeee ;
 }
 
 .layout-table {

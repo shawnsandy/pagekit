@@ -26,6 +26,11 @@ class PageKitServiceProvider extends ServiceProvider
         $this->publishes([
           __DIR__.'/public/css/pagekit' => public_path('css/pagekit'),
       ], 'public');
+
+      $this->publishes([
+          __DIR__.'/config/pagekit.php' => config_path('pagekit.php')
+      ], 'config');
+      
     }
 
     /**
@@ -35,4 +40,6 @@ class PageKitServiceProvider extends ServiceProvider
     {
         //
     }
+
+
 }

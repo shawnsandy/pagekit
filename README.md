@@ -1,50 +1,39 @@
 # PageKit
 
-TODO: Write a project description
+PageKit is a quick and easy way to replace the standard Laravel install page with a set of clean and modern Start page's for your application. 
+
+Allowing you to deploy and launch a Laravel based marketing / promotional site in minutes. While you focus on the development.
+
 
 ### Installation
 
+```
+
 composer require shawnsandy/pagekit
 
-__Setup Laravel Modules__ https://github.com/nWidart/laravel-modules
-
-Make sure to turn on auto scanning for modules, *you need to update the configuration file to allow that. Set `scan.enabled` value to true*
-
-```php
-// file config/modules.php
-
-return [
-  //...
-  'scan' => [
-    'enabled' => true
-  ]
-  //...
-]
 ```
 
-To verify that the module is installed use `module:list` artisan command.
+__Publish the pagekit assets__
 
 ```php
 
-php artisan module:list
+php artisan vendor:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider"
 
 ```
 
-You should see the pagekit module in the results.
+__Publish tags__
+
+You can publish individual pagekit tags using `--tags`
+
+```php
+
+php artisan module:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider" --tag=name
 
 ```
 
-| Pagekit     | Enabled | 0     | /Users/shawnsandy/Code/interns-dev/laravel/modules/pagekit    
-
-```
-
-Publish the pagekit assets
-
-```
-
-php artisan module:publish pagekit
-
-```
+* `-tag=public` publishes your pagekit public assets / files to `/public/`
+* `-tag=views` publishes your views to `vendor\pagekit`
+* `-tag=config` publishes `config\pagekit` to `config`
 
 ### Usage
 
@@ -61,15 +50,16 @@ History
 
 ### Change Log
 
-- Add a built in page editor
+V.1.3.1 BETA
 
-### Credits
+- Added package config file
+- Updated the read-me
+- Minor changes to layout/views 
 
-TODO: Write credits
 
 ### License
 
-TODO: Modify license
+TODO: Modify [licence.md](LICENCE.md)
 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
