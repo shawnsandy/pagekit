@@ -27,20 +27,28 @@ body {
 header {
     height: 30%;
     background: $gray-lighter;
-    &.landing {
-        height: 75%
-    }
+
 }
+
+height.landing {
+        height: 75%
+        max-height: 640px;
+    }
+
 
 header h1 {
     font-size: 72px;
 }
 
 
-
 main, section, footer {
     padding-top: $base-padding;
     padding-bottom: $base-padding;
+}
+
+
+footer {
+    background-color: #eeeeee ;
 }
 
 .layout-table {
