@@ -1,1 +1,56 @@
 
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  font-weight: 100;
+
+}
+
+header {
+    height: 30%;
+    background: $gray-lighter;
+    &.landing {
+        height: 75%;
+        max-height: 640px;
+    }
+
+}
+
+
+header h1 {
+    font-size: 72px;
+}
+
+
+main, section, footer {
+    padding-top: $base-padding;
+    padding-bottom: $base-padding;
+}
+
+
+footer {
+    background-color: #eeeeee ;
+}
+
+.layout-table {
+  display: table;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.layout-row {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cover {
+  height: 80%;
+}
+

@@ -5741,11 +5741,6 @@ header {
 
 }
 
-header.landing {
-    height: 80%;
-    max-height: 640px;
-}
-
 body {
     margin: 0;
     padding: 0;
