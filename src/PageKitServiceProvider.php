@@ -29,7 +29,7 @@ class PageKitServiceProvider extends ServiceProvider
 
       $this->publishes([
           __DIR__.'/config/pagekit.php' => config_path('pagekit.php')
-      ], 'config')
+      ], 'config');
       
     }
 
