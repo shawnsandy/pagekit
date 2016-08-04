@@ -9,24 +9,24 @@
 
      @if(config('pagekit.branding'))
     <style>
-        body {
-            background-color: {!! config('pagekit.brand.background-color') !!};
-            color: {!! config('pagekit.brand.text-color')!!};
-            font-family: {!! config('pagekit.brand.font-family' ) !!};
-        }
-        header {
-            background-color: {!! config('pagekit.brand.header-background-color') !!};
-            background-image: {!! config('pagekit.brand.header-backgroung-image') !!};
-        }
+       body {
+        background-color: {!! config('pagekit.brand.background-color') !!};
+        color: {!! config('pagekit.brand.text-color')!!};
+        font-family: {!! config('pagekit.brand.font-family' ) !!};
+    }
+    header {
+        background-color: {!! config('pagekit.brand.header-background-color') !!};
+        background-image: {!! config('pagekit.brand.header-backgroung-image') ? url("config('pagekit.brand.header-backgroung-image')") : 'none'  !!}
+    }
 
-        header h1 {
-            color: {!! config('pagekit.brand.header-font-color') !!};
-            font-size: {!! config('pagekit.brand.font-size') !!};
-        }
-        footer {
-            background-color: {!! config('pagekit.brand.footer-background-color') !!};
-            color: {!! config('pagekit.brand.footer-color') !!};
-        }
+    header h1 {
+        color: {!! config('pagekit.brand.header-font-color') !!};
+        font-size: {!! config('pagekit.brand.font-size') !!};
+    }
+    footer {
+        background-color: {!! config('pagekit.brand.footer-background-color') !!};
+        color: {!! config('pagekit.brand.footer-color') !!};
+    }
     </style>
     @endif
 
