@@ -7,12 +7,12 @@ body {
   padding: 0;
   width: 100%;
   display: table;
-
-
 }
 
 header {
     height: 30%;
+    max-height: 300px;
+    min-height: 200px;
     background: $gray-lighter;
     &.landing {
         height: 75%;
@@ -50,5 +50,5 @@ footer {
 }
 
 .cover {
-  height: 80%;
+  height: 100%;
 }
