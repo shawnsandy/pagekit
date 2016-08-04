@@ -22,12 +22,13 @@ return [
     'background-color' => '#FFFFFF',
     'header-background-color' => '#EEEEEE',
     'header-font-size' => '72px',
+    'font-family' => '"Helvetica Neue", Helvetica, Arial, sans-serif',
     'header-font-color' => '#777777',
     'footer-background-color' => '#333333',
-    'footer-color' => '#333333',
+    'footer-color' => '#FFFFFF',
     'header-color' => '#EEEEEE',
     'text-color' => 'FFFFFF',
-    'header-background-image' => none,
+    'header-background-image' => "none",
     'logo' => false
 ]
 

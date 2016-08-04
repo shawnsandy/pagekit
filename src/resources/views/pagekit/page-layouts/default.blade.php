@@ -8,26 +8,26 @@
      <link rel="stylesheet" href="/css/pagekit/page.css">
 
      @if(config('pagekit.branding'))
-    <styles>
-    body {
-        background-color: "{{ config('pagekit.brand.background-color')}}";
-        color: "{{ config('pagekit.brand.text-color')}}";
-        font-family: "{{ config('pagekit.brand.font-family' )}}";
-    }
-    header {
-        background-color: "{{ config('pagekit.brand.header-background-color', none )}}";
-        background-image: "{{ config('pagekit.brand.header-backgroung-image') }}";
-    }
+    <style>
+        body {
+            background-color: {!! config('pagekit.brand.background-color') !!};
+            color: {!! config('pagekit.brand.text-color')!!};
+            font-family: {!! config('pagekit.brand.font-family' ) !!};
+        }
+        header {
+            background-color: {!! config('pagekit.brand.header-background-color') !!};
+            background-image: {!! config('pagekit.brand.header-backgroung-image') !!};
+        }
 
-    header h1 {
-        color: "{{ config('pagekit.brand.header-font-color') }}";
-        font-size: "{{ config('pagekit.brand.font-size')}}";
-    }
-    footer {
-        background-color: "{{ config('pagekit.brand.footer-background-color')}}";
-        color: "{{ config('pagekit.brand.footer-color')}}";
-    }
-    </styles>
+        header h1 {
+            color: {!! config('pagekit.brand.header-font-color') !!};
+            font-size: {!! config('pagekit.brand.font-size') !!};
+        }
+        footer {
+            background-color: {!! config('pagekit.brand.footer-background-color') !!};
+            color: {!! config('pagekit.brand.footer-color') !!};
+        }
+    </style>
     @endif
 
     @stack('styles')
