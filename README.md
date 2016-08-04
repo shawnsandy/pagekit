@@ -1,5 +1,7 @@
 # PageKit
 
+[PageKit Screenshot]('pagekit.png')
+
 PageKit is a quick and easy way to replace the standard Laravel install page with a set of clean and modern Start page's for your application. Allowing you to deploy and launch a Laravel based marketing / promotional site in minutes. While you focus on the development. 
 
 
@@ -48,7 +50,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 ```
-**TO**
+*to*
 
 ```php
   Route::get('', function(){
