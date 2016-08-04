@@ -87,7 +87,7 @@ Customize :
 - [ ] Social media links
 - [ ] Add a static page editor
 - [ ] Addon style selectors
-- [ ] ...
+
 
 ## Contributing
 
