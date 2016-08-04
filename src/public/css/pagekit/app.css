@@ -5843,7 +5843,8 @@ main, section, footer {
     padding-bottom: 40px; }
 
 footer {
-    background-color: #eeeeee; }
+    background-color: #333333;
+    color: #777777; }
 
 .layout-table {
     display: table;

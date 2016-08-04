@@ -7,17 +7,14 @@
  *
  */
 
-Route::group(
-    ['prefix' => 'page'], function () {
+Route::group( ['prefix' => 'page'], function () {
 
-    Route::get(
-        '', function(){
+    Route::get('', function(){
         return view('page::index');
     });
 
-    Route::get(
-        '{name}', function ($name) {
+    Route::get('{name}', function ($name) {
         return view('page::'.$name);
-    }
-    );
+    });
+
 });
