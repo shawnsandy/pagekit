@@ -34,7 +34,7 @@ main, section, footer {
 
 
 footer {
-    background-color: darken($gray-lighter, $amount: 0);
+    background-color: $gray-lighter;
 }
 
 .layout-table {
