@@ -4,7 +4,7 @@ PageKit is a quick and easy way to replace the standard Laravel install page wit
 
 
 
-### Installation
+## Installation
 
 ```
 
@@ -30,15 +30,38 @@ php artisan module:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider
 
 ```
 
+
 * `-tag=public` publishes your pagekit public assets / files to `/public/` 
 * `-tag=views` publishes your views to `vendor\pagekit`
 * `-tag=config` publishes `config\pagekit` to `config`
 
-### Usage
+## Usage
 
 Once installed correctly you should be able to goto  `http://yoursite.app/pagekit` 
 
-### Contributing
+### Default index page
+
+You can set tpagekit to replace the default *welcome* page by modifying your `app/Http/route.php` 
+
+```php
+Route::get('/', function () {
+    return view('welcome');
+});
+```
+**TO**
+
+```php
+  Route::get('', function(){
+        return view('page::index');
+    });
+```
+
+  Route::get(
+        '', function(){
+        return view('page::index');
+    });
+
+## Contributing
 
 Fork it!
 Create your feature branch: git checkout -b my-new-feature
@@ -47,7 +70,7 @@ Push to the branch: git push origin my-new-feature
 Submit a pull request :D
 History
 
-### Change Log
+## Change Log
 
 V.1.3.2 BETA
 
@@ -60,8 +83,10 @@ V.1.3.1 BETA
 - Updated the read-me
 - Minor changes to layout/views 
 
+## TODO
 
-### License
+
+## License
 
 TODO: Modify [licence.md](LICENCE.md)
 

@@ -14,6 +14,17 @@ return [
 
 'ga-tracker' => 'UA-0000000-0',
 
-'address' => '0000 Street, City, State zip'
+'address' => '0000 Street, City, State zip',
+
+'branding' => false,
+
+'brand' => [
+    'background-color' => '#FFFFFF',
+    'header-background-color' => '#EEEEEE',
+    'header-font-size' => '72px',
+    'header-font-color' => '#FFFFFF',
+    'text-color' => 'FFFFFF',
+    'header-background-image' => none,
+]
 
 ];
