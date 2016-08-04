@@ -5828,6 +5828,8 @@ body {
 
 header {
     height: 30%;
+    max-height: 300px;
+    min-height: 200px;
     background: #eeeeee; }
     header.landing {
         height: 75%;
@@ -5854,4 +5856,4 @@ footer {
     vertical-align: middle; }
 
 .cover {
-    height: 80%; }
+    height: 100%; }
