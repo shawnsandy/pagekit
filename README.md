@@ -100,6 +100,17 @@ History
 
 ## Change Log
 
+V.1.3.4 BETA 
+
+Adds a Branding feature
+
+Customize fonts, color, background image etc from the config/pagekit.php file
+Updates the readme
+
+V.1.3.3
+
+...
+
 V.1.3.2 BETA
 
 - Removes several composer packages
