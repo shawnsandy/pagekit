@@ -56,10 +56,38 @@ Route::get('/', function () {
     });
 ```
 
-  Route::get(
-        '', function(){
-        return view('page::index');
-    });
+### Custom Branding
+
+You can custom brand pagekit by editing the values in the `config/pagekit.php` 
+
+Turn branding on:
+
+```php
+'branding' => false,
+``` 
+
+Customize :
+
+```php
+
+'brand' => [
+    'background-color' => '#FFFFFF',
+    'header-background-color' => '#EEEEEE',
+    'header-font-size' => '72px',
+    'header-font-color' => '#FFFFFF',
+    'text-color' => 'FFFFFF',
+    'header-background-image' => none,
+]
+
+```
+
+## TODO
+
+- [ ] Contact form
+- [ ] Social media links
+- [ ] Add a static page editor
+- [ ] Addon style selectors
+- [ ] ...
 
 ## Contributing
 
@@ -83,7 +111,6 @@ V.1.3.1 BETA
 - Updated the read-me
 - Minor changes to layout/views 
 
-## TODO
 
 
 ## License
