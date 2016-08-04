@@ -2,6 +2,8 @@
 
 ![PageKit Screenshot](pagekit.png)
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/2b15870b-8188-40ef-be16-96fea6a81bb9/mini.png)](https://insight.sensiolabs.com/projects/2b15870b-8188-40ef-be16-96fea6a81bb9)
+
 PageKit is a quick and easy way to replace the standard Laravel install page with a set of clean and modern Start page's for your application. Allowing you to deploy and launch a Laravel based marketing / promotional site in minutes. While you focus on the development. 
 
 
@@ -103,6 +105,12 @@ Submit a pull request :D
 History
 
 ## Change Log
+
+V1.4.5 BETA
+
+Code analysis passed
+Added to SensioLabsInsight for code analysis 
+Fixes issues with style rendering for custom branding options
 
 V.1.3.4 BETA 
 
