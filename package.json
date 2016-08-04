@@ -1,0 +1,26 @@
+{
+  "name": "pagekit",
+  "version": "1.0.0",
+  "description": "Package Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnsandy/pagekit.git"
+  },
+  "keywords": [
+    "Larave",
+    "PageKit"
+  ],
+  "author": "shawn sandy <shawnsandy04@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawnsandy/pagekit/issues"
+  },
+  "homepage": "https://github.com/shawnsandy/pagekit#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

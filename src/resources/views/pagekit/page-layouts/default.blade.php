@@ -2,14 +2,14 @@
 <html>
 <head>
 
-    <title>{{ config('pagekit.title', 'Page Title - PageKit.') }} </title>  
+    <title>{{ config('pagekit.title', 'Page Title - PageKit.') }} </title>
 
     <link rel="stylesheet" href="/css/pagekit/app.css">
+     <link rel="stylesheet" href="/css/pagekit/page.css">
     @stack('styles')
 </head>
 
 <body>
-page content
 @yield('page')
 </body>
 
