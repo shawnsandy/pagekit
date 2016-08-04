@@ -9,6 +9,7 @@
     @stack('styles')
 </head>
 
+
 <body>
 @yield('page')
 </body>
@@ -18,4 +19,5 @@
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 @stack('scripts')
+
 </html>

@@ -4,7 +4,9 @@
   "description": "Package Management",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --output-style nested --indent-type space --indent-width 4 src/resources/assets/app.scss src/public/css/pagekit/app.css",
+    "autoprefixer": "postcss -u autoprefixer -r /src/public/css/**/*.scss"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,9 @@
   },
   "homepage": "https://github.com/shawnsandy/pagekit#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "autoprefixer": "^6.4.0",
+    "gulp": "^3.9.1",
+    "node-sass": "^3.8.0",
+    "postcss-cli": "^2.5.2"
   }
 }

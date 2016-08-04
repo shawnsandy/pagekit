@@ -7,7 +7,7 @@
         <div class="layout-table">
             <div class="layout-row">
                 <div class="logo">
-                    <h1>{{ config('pagekit.page_title', 'Laravel.PageKit' ) }}</h1>
+                    <h1>{{ config('pagekit.company_name', 'Laravel.PageKit' ) }}</h1>
                     <p class="lead">
                         {{ config('pagekit.title_slug', 'Quick start pages for Laravel.' )}}
                     </p>
@@ -15,6 +15,7 @@
             </div>
         </div>
     </section>
+
 </header>
 
 @include('page::shared.nav')
