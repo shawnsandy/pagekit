@@ -23,6 +23,10 @@
         color: "{{ config('brand.header-font-color') }}";
         font-size: "{{ config('brand.font-size')}}";
     }
+    footer {
+        background-color: "{{ config('brand.footer-background-color')}}";
+        color: "{{ config('brand.footer-color')}}";
+    }
     </styles>
     @endif
 

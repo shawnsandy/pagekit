@@ -22,7 +22,10 @@ return [
     'background-color' => '#FFFFFF',
     'header-background-color' => '#EEEEEE',
     'header-font-size' => '72px',
-    'header-font-color' => '#FFFFFF',
+    'header-font-color' => '#777777',
+    'footer-background-color' => '#333333',
+    'footer-color' => '#333333',
+    'header-color' => '#EEEEEE',
     'text-color' => 'FFFFFF',
     'header-background-image' => none,
     'logo' => false

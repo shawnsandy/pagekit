@@ -28,7 +28,7 @@ You can publish individual pagekit tags using `--tags`, *please note* that the `
 
 ```php
 
-php artisan module:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider" --tag=name
+php artisan vendor:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider" --tag=name
 
 ```
 
@@ -76,7 +76,9 @@ Customize :
     'background-color' => '#FFFFFF',
     'header-background-color' => '#EEEEEE',
     'header-font-size' => '72px',
-    'header-font-color' => '#FFFFFF',
+    'header-color' => '#FFFFFF',
+    'footer-background-color' => '#333333',
+    'footer-color' => '#333333',
     'text-color' => 'FFFFFF',
     'header-background-image' => none,
 ]
