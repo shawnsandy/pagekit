@@ -25,6 +25,7 @@ return [
     'header-font-color' => '#FFFFFF',
     'text-color' => 'FFFFFF',
     'header-background-image' => none,
+    'logo' => false
 ]
 
 ];
