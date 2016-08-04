@@ -2,14 +2,15 @@
 <html>
 <head>
 
-    <title>{{ config('pagekit.title', 'Page Title - PageKit.') }} </title>  
+    <title>{{ config('pagekit.title', 'Page Title - PageKit.') }} </title>
 
     <link rel="stylesheet" href="/css/pagekit/app.css">
+     <link rel="stylesheet" href="/css/pagekit/page.css">
     @stack('styles')
 </head>
 
+
 <body>
-page content
 @yield('page')
 </body>
 
@@ -18,4 +19,5 @@ page content
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 @stack('scripts')
+
 </html>

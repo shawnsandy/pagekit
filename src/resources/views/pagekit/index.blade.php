@@ -7,14 +7,15 @@
         <div class="layout-table">
             <div class="layout-row">
                 <div class="logo">
-                    <h1>Laravel.Page.Kit</h1>
+                    <h1>{{ config('pagekit.company_name', 'Laravel.PageKit' ) }}</h1>
                     <p class="lead">
-                        Quick start pages for Laravel.
+                        {{ config('pagekit.title_slug', 'Quick start pages for Laravel.' )}}
                     </p>
                 </div>
             </div>
         </div>
     </section>
+
 </header>
 
 @include('page::shared.nav')
@@ -46,7 +47,7 @@
 @push('scripts')
 <script>
     $(document).ready(function(){
-        $('.logo').fadeToggle( 4000, "linear" );
+        $('.logo').fadeToggle( 5000, "linear" );
     })
 </script>
 @endpush

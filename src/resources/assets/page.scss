@@ -1,4 +1,3 @@
-
 html, body {
   height: 100%;
 }
@@ -35,7 +34,7 @@ main, section, footer {
 
 
 footer {
-    background-color: #eeeeee ;
+    background-color: darken($gray-lighter, $amount: 0);
 }
 
 .layout-table {
@@ -53,4 +52,3 @@ footer {
 .cover {
   height: 80%;
 }
-
