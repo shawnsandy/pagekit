@@ -6,6 +6,26 @@
 
     <link rel="stylesheet" href="/css/pagekit/app.css">
      <link rel="stylesheet" href="/css/pagekit/page.css">
+
+     @if(config('config.branding'))
+    <styles>
+    body {
+        background-color: "{{ config('brand.background-color')}}";
+        color: "{{ config('brand.text-color')}}";
+        font-family: "{{ config('brand.font-family' )}}";
+    }
+    header {
+        background-color: "{{ config('brand.header-background-color', none )}}";
+        background-image: "{{ config('brand.header-backgroung-image') }}";
+    }
+
+    header h1 {
+        color: "{{ config('brand.header-font-color') }}";
+        font-size: "{{ config('brand.font-size')}}";
+    }
+    </styles>
+    @endif
+
     @stack('styles')
 </head>
 
