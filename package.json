@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --output-style nested --indent-type space --indent-width 4 src/resources/assets/app.scss src/public/css/pagekit/app.css",
-    "autoprefixer": "postcss -u autoprefixer -r /src/public/css/**/*.scss"
+    "autoprefixer": "postcss -u autoprefixer -r /src/public/css/pagekit/*.css"
   },
   "repository": {
     "type": "git",
