@@ -88,14 +88,26 @@ Customize :
     'background-color' => '#FFFFFF',
     'header-background-color' => '#EEEEEE',
     'header-font-size' => '72px',
-    'header-color' => '#FFFFFF',
+    'font-family' => '"Helvetica Neue", Helvetica, Arial, sans-serif',
+    'header-font-color' => '#eee',
     'footer-background-color' => '#333333',
-    'footer-color' => '#333333',
+    'footer-color' => '#FFFFFF',
+    'header-color' => '#EEEEEE',
     'text-color' => 'FFFFFF',
-    'header-background-image' => none,
+    'header-background-image' => "https://static.pexels.com/photos/129569/pexels-photo-129569-large.jpeg",
+    'logo' => false
 ]
 
 ```
+
+**Custom Header**
+
+```php
+header-background-image' => "https://static.pexels.com/photos/129569/pexels-photo-129569-large.jpeg",
+
+```
+
+!['Costom Header Background'](pagekit-custom-header.png)
 
 ## TODO
 
