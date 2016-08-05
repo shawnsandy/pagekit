@@ -128,6 +128,11 @@ History
 
 ## Change Log
 
+V.1.3.6 BETA
+
+Updates to PageKit config settings and readme
+
+
 V1.4.5 BETA
 
 Code analysis passed
