@@ -2,7 +2,7 @@
 
 @section('page')
 
-<header class="landing">
+<header class="landing" data-aos="fade-up">
     <section class="cover">
         <div class="layout-table">
             <div class="layout-row">
@@ -40,6 +40,7 @@
 @endsection
 
 @push('styles')
+<link rel="stylesheet" href="/vendor/aos/aos.css" />
 <style type="text/css">
     .logo {
         display: none;
@@ -47,9 +48,12 @@
 </style>
 @endpush
 @push('scripts')
+<script src="/vendor/aos/aos.js"></script>
 <script>
+AOS.init();
     $(document).ready(function(){
         $('.logo').fadeToggle( 5000, "linear" );
     })
 </script>
+
 @endpush

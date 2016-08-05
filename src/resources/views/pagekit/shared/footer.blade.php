@@ -1,4 +1,4 @@
-<footer class="">
+<footer class="" data-aos="fade-right">
     <div class="layout-table">
         <div class="layout-row">
  <p> {{ config('pagekit.conpany_name', 'PageKit') }}. {{ config( 'pagekit.address', 'Company Address' ) }}
