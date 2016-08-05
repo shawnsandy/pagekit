@@ -16,6 +16,16 @@ composer require shawnsandy/pagekit
 
 ```
 
+__PageKitServiceProvider__
+
+Add PageKitServiceProvider to the providers array in `config/app.php`
+
+```php
+
+ShawnSandy\PageKit\PageKitServiceProvider::class
+
+```
+
 __Publish the pagekit assets__
 
 ```php
@@ -45,7 +55,7 @@ Once installed correctly you should be able to goto  `http://yoursite.app/pageki
 
 ### Default index page
 
-You can set tpagekit to replace the default *welcome* page by modifying your `app/Http/route.php` 
+Replace the default *welcome* page with the PageKit index by modifying your `app/Http/route.php` 
 
 ```php
 Route::get('/', function () {
