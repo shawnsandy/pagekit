@@ -128,35 +128,39 @@ History
 
 ## Change Log
 
-V.1.3.6 BETA
+Version 1.3.6 BETA
 
 Adds Google Analytics js tracker to default view
 Updates to PageKit config settings and readme
 
+Version 1.3.6
 
-V1.4.5 BETA
+Animate On Scroll Library install
+- animates header and footer
+
+Version 1.3.5 BETA
 
 Code analysis passed
 Added to SensioLabsInsight for code analysis 
 Fixes issues with style rendering for custom branding options
 
-V.1.3.4 BETA 
+Version 1.3.4 BETA 
 
 Adds a Branding feature
 
 Customize fonts, color, background image etc from the config/pagekit.php file
 Updates the readme
 
-V.1.3.3
+Version 1.3.3
 
 ...
 
-V.1.3.2 BETA
+Version 1.3.2 BETA
 
 - Removes several composer packages
 
 
-V.1.3.1 BETA
+Version 1.3.1 BETA
 
 - Added package config file
 - Updated the read-me
