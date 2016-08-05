@@ -128,15 +128,15 @@ History
 
 ## Change Log
 
+Version 1.3.7
+
+Animate On Scroll Library install
+- animates header and footer
+
 Version 1.3.6 BETA
 
 Adds Google Analytics js tracker to default view
 Updates to PageKit config settings and readme
-
-Version 1.3.6
-
-Animate On Scroll Library install
-- animates header and footer
 
 Version 1.3.5 BETA
 
