@@ -9,7 +9,9 @@
                 <div class="logo">
                     <h1>{{ config('pagekit.company_name', 'Laravel.PageKit' ) }}</h1>
                     <p class="lead">
+                    @if(config('pagekit.hide_header_title'))
                         {{ config('pagekit.title_slug', 'Quick start pages for Laravel.' )}}
+                    @endif
                     </p>
                 </div>
             </div>

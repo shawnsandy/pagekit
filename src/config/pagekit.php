@@ -12,24 +12,25 @@ return [
 
 'email' => 'email@acmeinc.com',
 
-'ga-tracker' => 'UA-0000000-0',
+'ga_tracker' => 'UA_0000000_0',
 
 'address' => '0000 Street, City, State zip',
 
 'branding' => false,
 
 'brand' => [
-    'background-color' => '#FFFFFF',
-    'header-background-color' => '#EEEEEE',
-    'header-font-size' => '72px',
-    'font-family' => '"Helvetica Neue", Helvetica, Arial, sans-serif',
-    'header-font-color' => '#777777',
-    'footer-background-color' => '#333333',
-    'footer-color' => '#FFFFFF',
-    'header-color' => '#EEEEEE',
-    'text-color' => 'FFFFFF',
-    'header-background-image' => "none",
-    'logo' => false
+    'background_color' => '#FFFFFF',
+    'header_background_color' => '#EEEEEE',
+    'header_font_size' => '72px',
+    'font_family' => '"Helvetica Neue", Helvetica, Arial, sans_serif',
+    'header_font_color' => '#777777',
+    'footer_background_color' => '#333333',
+    'footer_color' => '#FFFFFF',
+    'header_color' => '#EEEEEE',
+    'text_color' => 'FFFFFF',
+    'header_background_image' => false,
+    'logo' => false,
+    'hide_header_title' => false
 ]
 
 ];
