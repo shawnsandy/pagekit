@@ -9,14 +9,22 @@
 
      @if(config('pagekit.branding'))
     <style>
-       body {
+      body {
         background-color: {!! config('pagekit.brand.background-color') !!};
         color: {!! config('pagekit.brand.text-color')!!};
         font-family: {!! config('pagekit.brand.font-family' ) !!};
     }
     header {
         background-color: {!! config('pagekit.brand.header-background-color') !!};
-        background-image: {!! config('pagekit.brand.header-backgroung-image') ? url("config('pagekit.brand.header-backgroung-image')") : 'none'  !!}
+        color: {{ config('pagekit.brand.header-font-color')}};
+
+        @if(config('pagekit.brand.header-background-image'))
+        background-image: url("{{ config('pagekit.brand.header-background-image') }}");
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        background-position: center center ;
+        @endif
+
     }
 
     header h1 {
