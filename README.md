@@ -16,6 +16,16 @@ composer require shawnsandy/pagekit
 
 ```
 
+__PageKitServiceProvider__
+
+Add PageKitServiceProvider to the providers array in `config/app.php`
+
+```php
+
+ShawnSandy\PageKit\PageKitServiceProvider::class
+
+```
+
 __Publish the pagekit assets__
 
 ```php
@@ -45,7 +55,7 @@ Once installed correctly you should be able to goto  `http://yoursite.app/pageki
 
 ### Default index page
 
-You can set tpagekit to replace the default *welcome* page by modifying your `app/Http/route.php` 
+Replace the default *welcome* page with the PageKit index by modifying your `app/Http/route.php` 
 
 ```php
 Route::get('/', function () {
@@ -78,14 +88,26 @@ Customize :
     'background-color' => '#FFFFFF',
     'header-background-color' => '#EEEEEE',
     'header-font-size' => '72px',
-    'header-color' => '#FFFFFF',
+    'font-family' => '"Helvetica Neue", Helvetica, Arial, sans-serif',
+    'header-font-color' => '#eee',
     'footer-background-color' => '#333333',
-    'footer-color' => '#333333',
+    'footer-color' => '#FFFFFF',
+    'header-color' => '#EEEEEE',
     'text-color' => 'FFFFFF',
-    'header-background-image' => none,
+    'header-background-image' => "https://static.pexels.com/photos/129569/pexels-photo-129569-large.jpeg",
+    'logo' => false
 ]
 
 ```
+
+**Custom Header**
+
+```php
+header-background-image' => "https://static.pexels.com/photos/129569/pexels-photo-129569-large.jpeg",
+
+```
+
+!['Costom Header Background'](pagekit-custom-header.png)
 
 ## TODO
 
@@ -105,6 +127,12 @@ Submit a pull request :D
 History
 
 ## Change Log
+
+V.1.3.6 BETA
+
+Adds Google Analytics js tracker to default view
+Updates to PageKit config settings and readme
+
 
 V1.4.5 BETA
 
