@@ -130,6 +130,7 @@ History
 
 V.1.3.6 BETA
 
+Adds Google Analytics js tracker to default view
 Updates to PageKit config settings and readme
 
 
