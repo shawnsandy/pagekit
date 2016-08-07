@@ -2,7 +2,7 @@
 
 @section('page')
 
-@include('page::shared.header', ["header_class" => "landing"])
+@include('page::shared.header', ["class_name" => "landing"])
 
 
 @include('page::shared.nav')
