@@ -1,4 +1,4 @@
-<header class="{{ $header_class or "main" }}" data-aos="fade-up">
+<header class="{{ $class_name or "main" }}" data-aos="fade-up">
     <section class="cover">
         <div class="layout-table">
             <div class="layout-row">
