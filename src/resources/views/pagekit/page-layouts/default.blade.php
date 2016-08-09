@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta charset="utf-8">
     <title>{{ config('pagekit.title', 'Page Title - PageKit.') }} </title>
 
     <link rel="stylesheet" href="/css/pagekit/app.css">
