@@ -19,10 +19,6 @@ Route::group( ['prefix' => 'page'], function () {
 
     Route::group(['prefix' => 'admin'], function(){
 
-        Route::get('/', function(){
-            return view('page::admin.dashboard');
-        });
-
         Route::get('/{name}', function($name){
            return view('page::admin.'. $name);
         });

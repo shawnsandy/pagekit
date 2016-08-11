@@ -6,11 +6,16 @@
             <div class="">
                 <nav>
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="#"><span id="sidebar-toggle" class=""><i class="fa fa-bars" aria-hidden="true"></i></span><span
-                                        class="nav-title"></span>
-                            </a>
-                        </li>
+                    <li>
+
+                    <a href="#"><span id="sidebar-toggle" class="">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+
+                    </span></a>
+                    <span class="nav-title">
+                    <h5>PageKit</h5>
+                    </span>
+                    </li>
                         <li>
                             <a href=""><i class="fa fa-cogs" aria-hidden="true"></i><span
                                         class="nav-title">Settings</span>
@@ -69,16 +74,27 @@
 
     .sidebar-closed .sidebar {
         width: 80px;
+
     }
 
     .sidebar a {
-        padding: 10px 0 10px 15px;
+        padding: 10px 0 10px 0;
+    }
+
+    .sidebar a:hover {
+        text-decoration: none;
     }
 
     .sidebar li {
+        text-align: center;
         padding: 20px 0 20px;
         border-bottom: 1px solid #e4e4e4;
         overflow: hidden;
+        height: 80px;
+    }
+
+    .sidebar ul:first-child {
+        text-align: left;
     }
 
     .sidebar nav {
@@ -86,6 +102,8 @@
     }
 
     .nav-title {
+       /*font-size: 14px;*/
+        display: block;
         -webkit-transition: all 0.85s ease;
         -moz-transition: all 0.8s ease;
         -o-transition: all 0.8s ease;
@@ -93,8 +111,8 @@
     }
 
     .sidebar-closed .nav-title {
-        display: none;
-        visibility: hidden;
+       /* display: none; */
+       font-size: 12px;
     }
 
     .sidebar:hover {
@@ -104,7 +122,9 @@
     i.fa {
         font-size: 21px;
         padding: 0 10px 0 10px;
+        display: block;
     }
+
 
     .dashboard {
         /*/float: right;*/
@@ -139,7 +159,7 @@
 <script type="text/javascript">
     $('#sidebar-toggle').click(function (e) {
         e.preventDefault();
-        $(".nav-title").fadeToggle('fast', 'linear');
+        //$(".nav-title").fadeToggle(3000);
         $('#wrapper').toggleClass('sidebar-closed');
     })
 </script>
