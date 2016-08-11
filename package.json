@@ -10,7 +10,8 @@
     "fonts": "cp -R packages/typicons.font/src/font src/public/vendor/typicons",
     "animatecss": "cp -R packages/animate.css/animate.css src/public/vendor",
     "font-awesome": "cp -R node_modules/font-awesome src/public/vendor/font-awesome",
-    "copy:aos": "cp -R node_modules/aos/dist src/public/vendor/aos/"
+    "copy:aos": "cp -R node_modules/aos/dist src/public/vendor/aos/",
+    "setup": "npm run fonts && npm run animatecss && npm run font-awesome && npm run copy:aos"
   },
   "repository": {
     "type": "git",
