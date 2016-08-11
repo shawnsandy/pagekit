@@ -1,29 +1,32 @@
 @extends('page::page-layouts.default')
 
 @section('page')
-    <div id="wrapper" class="table-layout easein">
+    <div id="wrapper" class="table-layout easein sidebar-closed">
         <div class="sidebar ">
             <div class="">
                 <nav>
                     <ul class="list-unstyled">
-                    <li>
-
-                    <a href="#"><span id="sidebar-toggle" class="">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-
-                    </span></a>
-                    <span class="nav-title">
-                    <h5>PageKit</h5>
-                    </span>
-                    </li>
                         <li>
-                            <a href=""><i class="fa fa-cogs" aria-hidden="true"></i><span
-                                        class="nav-title">Settings</span>
+                            <a href="#">
+                                <span id="sidebar-toggle" class="">
+                                <i class="fa fa-plus-circle sidebar-toogle" aria-hidden="true"></i>
+                                <i class="fa fa-times-circle sidebar-toogle" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-home" aria-hidden="true"></i>
+                                <span class="nav-title">Dashboard</span>
                             </a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-users" aria-hidden="true"></i><span
                                         class="nav-title">Users</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-cogs" aria-hidden="true"></i><span
+                                        class="nav-title">Settings</span>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -61,13 +64,13 @@
         width: 200px;
         overflow: hidden;
         float: left;
-        border-right: #e4e4e4 1px solid;
+        border-right: #f2f2f2 1px solid;
         background-color: #FFF;
         word-wrap: normal;
-        -webkit-transition: all 0.8s ease;
-        -moz-transition: all 0.8s ease;
-        -o-transition: all 0.8s ease;
-        transition: all 0.8s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
         overflow: hidden;
         position: absolute;
     }
@@ -81,14 +84,14 @@
         padding: 10px 0 10px 0;
     }
 
-    .sidebar a:hover {
+    .sidebar a:hover, .sidebar a:focus {
         text-decoration: none;
     }
 
     .sidebar li {
         text-align: center;
         padding: 20px 0 20px;
-        border-bottom: 1px solid #e4e4e4;
+        border-bottom: 1px solid #f6f6f6;
         overflow: hidden;
         height: 80px;
     }
@@ -101,22 +104,8 @@
         /*padding: 20px 5px 10px 5px;*/
     }
 
-    .nav-title {
-       /*font-size: 14px;*/
-        display: block;
-        -webkit-transition: all 0.85s ease;
-        -moz-transition: all 0.8s ease;
-        -o-transition: all 0.8s ease;
-        transition: all 0.8s ease;
-    }
-
-    .sidebar-closed .nav-title {
-       /* display: none; */
-       font-size: 12px;
-    }
-
-    .sidebar:hover {
-        /*width: 260px;*/
+    li:first-child {
+        height: 60px;
     }
 
     i.fa {
@@ -125,6 +114,27 @@
         display: block;
     }
 
+    i.fa-times-circle {
+        display: none;
+    }
+
+    .nav-title {
+        /*font-size: 14px;*/
+        display: block;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .sidebar-closed .nav-title {
+        /* display: none; */
+        font-size: 10px;
+    }
+
+    .sidebar:hover {
+        /*width: 260px;*/
+    }
 
     .dashboard {
         /*/float: right;*/
@@ -139,10 +149,10 @@
 
     .dashboard > .container-fluid {
         margin-left: 210px;
-        -webkit-transition: all 0.85s ease;
-        -moz-transition: all 0.8s ease;
-        -o-transition: all 0.8s ease;
-        transition: all 0.8s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
     }
 
     .sidebar-closed .dashboard > .container-fluid {
@@ -159,7 +169,7 @@
 <script type="text/javascript">
     $('#sidebar-toggle').click(function (e) {
         e.preventDefault();
-        //$(".nav-title").fadeToggle(3000);
+        $(".sidebar-toogle").slideToggle('fast', 'linear');
         $('#wrapper').toggleClass('sidebar-closed');
     })
 </script>
