@@ -1,7 +1,7 @@
 @extends('page::page-layouts.default')
 
 @section('page')
-    <div id="wrapper" class="table-layout sidebar-closed easein">
+    <div id="wrapper" class="table-layout easein">
         <div class="sidebar ">
             <div class="">
                 <nav>
