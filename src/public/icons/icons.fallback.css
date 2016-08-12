@@ -1,0 +1,770 @@
+.icon-add-to-list { background-image: url('png/add-to-list.png'); background-repeat: no-repeat; }
+
+.icon-add-user { background-image: url('png/add-user.png'); background-repeat: no-repeat; }
+
+.icon-address { background-image: url('png/address.png'); background-repeat: no-repeat; }
+
+.icon-adjust { background-image: url('png/adjust.png'); background-repeat: no-repeat; }
+
+.icon-air { background-image: url('png/air.png'); background-repeat: no-repeat; }
+
+.icon-aircraft-landing { background-image: url('png/aircraft-landing.png'); background-repeat: no-repeat; }
+
+.icon-aircraft-take-off { background-image: url('png/aircraft-take-off.png'); background-repeat: no-repeat; }
+
+.icon-aircraft { background-image: url('png/aircraft.png'); background-repeat: no-repeat; }
+
+.icon-align-bottom { background-image: url('png/align-bottom.png'); background-repeat: no-repeat; }
+
+.icon-align-horizontal-middle { background-image: url('png/align-horizontal-middle.png'); background-repeat: no-repeat; }
+
+.icon-align-left { background-image: url('png/align-left.png'); background-repeat: no-repeat; }
+
+.icon-align-right { background-image: url('png/align-right.png'); background-repeat: no-repeat; }
+
+.icon-align-top { background-image: url('png/align-top.png'); background-repeat: no-repeat; }
+
+.icon-align-vertical-middle { background-image: url('png/align-vertical-middle.png'); background-repeat: no-repeat; }
+
+.icon-archive { background-image: url('png/archive.png'); background-repeat: no-repeat; }
+
+.icon-area-graph { background-image: url('png/area-graph.png'); background-repeat: no-repeat; }
+
+.icon-arrow-bold-down { background-image: url('png/arrow-bold-down.png'); background-repeat: no-repeat; }
+
+.icon-arrow-bold-left { background-image: url('png/arrow-bold-left.png'); background-repeat: no-repeat; }
+
+.icon-arrow-bold-right { background-image: url('png/arrow-bold-right.png'); background-repeat: no-repeat; }
+
+.icon-arrow-bold-up { background-image: url('png/arrow-bold-up.png'); background-repeat: no-repeat; }
+
+.icon-arrow-down { background-image: url('png/arrow-down.png'); background-repeat: no-repeat; }
+
+.icon-arrow-left { background-image: url('png/arrow-left.png'); background-repeat: no-repeat; }
+
+.icon-arrow-long-down { background-image: url('png/arrow-long-down.png'); background-repeat: no-repeat; }
+
+.icon-arrow-long-left { background-image: url('png/arrow-long-left.png'); background-repeat: no-repeat; }
+
+.icon-arrow-long-right { background-image: url('png/arrow-long-right.png'); background-repeat: no-repeat; }
+
+.icon-arrow-long-up { background-image: url('png/arrow-long-up.png'); background-repeat: no-repeat; }
+
+.icon-arrow-right { background-image: url('png/arrow-right.png'); background-repeat: no-repeat; }
+
+.icon-arrow-up { background-image: url('png/arrow-up.png'); background-repeat: no-repeat; }
+
+.icon-arrow-with-circle-down { background-image: url('png/arrow-with-circle-down.png'); background-repeat: no-repeat; }
+
+.icon-arrow-with-circle-left { background-image: url('png/arrow-with-circle-left.png'); background-repeat: no-repeat; }
+
+.icon-arrow-with-circle-right { background-image: url('png/arrow-with-circle-right.png'); background-repeat: no-repeat; }
+
+.icon-arrow-with-circle-up { background-image: url('png/arrow-with-circle-up.png'); background-repeat: no-repeat; }
+
+.icon-attachment { background-image: url('png/attachment.png'); background-repeat: no-repeat; }
+
+.icon-awareness-ribbon { background-image: url('png/awareness-ribbon.png'); background-repeat: no-repeat; }
+
+.icon-back-in-time { background-image: url('png/back-in-time.png'); background-repeat: no-repeat; }
+
+.icon-back { background-image: url('png/back.png'); background-repeat: no-repeat; }
+
+.icon-bar-graph { background-image: url('png/bar-graph.png'); background-repeat: no-repeat; }
+
+.icon-basecamp { background-image: url('png/basecamp.png'); background-repeat: no-repeat; }
+
+.icon-battery { background-image: url('png/battery.png'); background-repeat: no-repeat; }
+
+.icon-beamed-note { background-image: url('png/beamed-note.png'); background-repeat: no-repeat; }
+
+.icon-behance { background-image: url('png/behance.png'); background-repeat: no-repeat; }
+
+.icon-bell { background-image: url('png/bell.png'); background-repeat: no-repeat; }
+
+.icon-blackboard { background-image: url('png/blackboard.png'); background-repeat: no-repeat; }
+
+.icon-block { background-image: url('png/block.png'); background-repeat: no-repeat; }
+
+.icon-book { background-image: url('png/book.png'); background-repeat: no-repeat; }
+
+.icon-bookmark { background-image: url('png/bookmark.png'); background-repeat: no-repeat; }
+
+.icon-bookmarks { background-image: url('png/bookmarks.png'); background-repeat: no-repeat; }
+
+.icon-bowl { background-image: url('png/bowl.png'); background-repeat: no-repeat; }
+
+.icon-box { background-image: url('png/box.png'); background-repeat: no-repeat; }
+
+.icon-briefcase { background-image: url('png/briefcase.png'); background-repeat: no-repeat; }
+
+.icon-browser { background-image: url('png/browser.png'); background-repeat: no-repeat; }
+
+.icon-brush { background-image: url('png/brush.png'); background-repeat: no-repeat; }
+
+.icon-bucket { background-image: url('png/bucket.png'); background-repeat: no-repeat; }
+
+.icon-cake { background-image: url('png/cake.png'); background-repeat: no-repeat; }
+
+.icon-calculator { background-image: url('png/calculator.png'); background-repeat: no-repeat; }
+
+.icon-calendar { background-image: url('png/calendar.png'); background-repeat: no-repeat; }
+
+.icon-camera { background-image: url('png/camera.png'); background-repeat: no-repeat; }
+
+.icon-ccw { background-image: url('png/ccw.png'); background-repeat: no-repeat; }
+
+.icon-chat { background-image: url('png/chat.png'); background-repeat: no-repeat; }
+
+.icon-check { background-image: url('png/check.png'); background-repeat: no-repeat; }
+
+.icon-chevron-down { background-image: url('png/chevron-down.png'); background-repeat: no-repeat; }
+
+.icon-chevron-left { background-image: url('png/chevron-left.png'); background-repeat: no-repeat; }
+
+.icon-chevron-right { background-image: url('png/chevron-right.png'); background-repeat: no-repeat; }
+
+.icon-chevron-small-down { background-image: url('png/chevron-small-down.png'); background-repeat: no-repeat; }
+
+.icon-chevron-small-left { background-image: url('png/chevron-small-left.png'); background-repeat: no-repeat; }
+
+.icon-chevron-small-right { background-image: url('png/chevron-small-right.png'); background-repeat: no-repeat; }
+
+.icon-chevron-small-up { background-image: url('png/chevron-small-up.png'); background-repeat: no-repeat; }
+
+.icon-chevron-thin-down { background-image: url('png/chevron-thin-down.png'); background-repeat: no-repeat; }
+
+.icon-chevron-thin-left { background-image: url('png/chevron-thin-left.png'); background-repeat: no-repeat; }
+
+.icon-chevron-thin-right { background-image: url('png/chevron-thin-right.png'); background-repeat: no-repeat; }
+
+.icon-chevron-thin-up { background-image: url('png/chevron-thin-up.png'); background-repeat: no-repeat; }
+
+.icon-chevron-up { background-image: url('png/chevron-up.png'); background-repeat: no-repeat; }
+
+.icon-chevron-with-circle-down { background-image: url('png/chevron-with-circle-down.png'); background-repeat: no-repeat; }
+
+.icon-chevron-with-circle-left { background-image: url('png/chevron-with-circle-left.png'); background-repeat: no-repeat; }
+
+.icon-chevron-with-circle-right { background-image: url('png/chevron-with-circle-right.png'); background-repeat: no-repeat; }
+
+.icon-chevron-with-circle-up { background-image: url('png/chevron-with-circle-up.png'); background-repeat: no-repeat; }
+
+.icon-circle-with-cross { background-image: url('png/circle-with-cross.png'); background-repeat: no-repeat; }
+
+.icon-circle-with-minus { background-image: url('png/circle-with-minus.png'); background-repeat: no-repeat; }
+
+.icon-circle-with-plus { background-image: url('png/circle-with-plus.png'); background-repeat: no-repeat; }
+
+.icon-circle { background-image: url('png/circle.png'); background-repeat: no-repeat; }
+
+.icon-circular-graph { background-image: url('png/circular-graph.png'); background-repeat: no-repeat; }
+
+.icon-clapperboard { background-image: url('png/clapperboard.png'); background-repeat: no-repeat; }
+
+.icon-classic-computer { background-image: url('png/classic-computer.png'); background-repeat: no-repeat; }
+
+.icon-clipboard { background-image: url('png/clipboard.png'); background-repeat: no-repeat; }
+
+.icon-clock { background-image: url('png/clock.png'); background-repeat: no-repeat; }
+
+.icon-cloud { background-image: url('png/cloud.png'); background-repeat: no-repeat; }
+
+.icon-code { background-image: url('png/code.png'); background-repeat: no-repeat; }
+
+.icon-cog { background-image: url('png/cog.png'); background-repeat: no-repeat; }
+
+.icon-colours { background-image: url('png/colours.png'); background-repeat: no-repeat; }
+
+.icon-compass { background-image: url('png/compass.png'); background-repeat: no-repeat; }
+
+.icon-controller-fast-backward { background-image: url('png/controller-fast-backward.png'); background-repeat: no-repeat; }
+
+.icon-controller-fast-forward { background-image: url('png/controller-fast-forward.png'); background-repeat: no-repeat; }
+
+.icon-controller-jump-to-start { background-image: url('png/controller-jump-to-start.png'); background-repeat: no-repeat; }
+
+.icon-controller-next { background-image: url('png/controller-next.png'); background-repeat: no-repeat; }
+
+.icon-controller-paus { background-image: url('png/controller-paus.png'); background-repeat: no-repeat; }
+
+.icon-controller-play { background-image: url('png/controller-play.png'); background-repeat: no-repeat; }
+
+.icon-controller-record { background-image: url('png/controller-record.png'); background-repeat: no-repeat; }
+
+.icon-controller-stop { background-image: url('png/controller-stop.png'); background-repeat: no-repeat; }
+
+.icon-controller-volume { background-image: url('png/controller-volume.png'); background-repeat: no-repeat; }
+
+.icon-copy { background-image: url('png/copy.png'); background-repeat: no-repeat; }
+
+.icon-creative-cloud { background-image: url('png/creative-cloud.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons-attribution { background-image: url('png/creative-commons-attribution.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons-noderivs { background-image: url('png/creative-commons-noderivs.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons-noncommercial-eu { background-image: url('png/creative-commons-noncommercial-eu.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons-noncommercial-us { background-image: url('png/creative-commons-noncommercial-us.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons-public-domain { background-image: url('png/creative-commons-public-domain.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons-remix { background-image: url('png/creative-commons-remix.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons-share { background-image: url('png/creative-commons-share.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons-sharealike { background-image: url('png/creative-commons-sharealike.png'); background-repeat: no-repeat; }
+
+.icon-creative-commons { background-image: url('png/creative-commons.png'); background-repeat: no-repeat; }
+
+.icon-credit-card { background-image: url('png/credit-card.png'); background-repeat: no-repeat; }
+
+.icon-credit { background-image: url('png/credit.png'); background-repeat: no-repeat; }
+
+.icon-cross { background-image: url('png/cross.png'); background-repeat: no-repeat; }
+
+.icon-cup { background-image: url('png/cup.png'); background-repeat: no-repeat; }
+
+.icon-cw { background-image: url('png/cw.png'); background-repeat: no-repeat; }
+
+.icon-cycle { background-image: url('png/cycle.png'); background-repeat: no-repeat; }
+
+.icon-database { background-image: url('png/database.png'); background-repeat: no-repeat; }
+
+.icon-dial-pad { background-image: url('png/dial-pad.png'); background-repeat: no-repeat; }
+
+.icon-direction { background-image: url('png/direction.png'); background-repeat: no-repeat; }
+
+.icon-document-landscape { background-image: url('png/document-landscape.png'); background-repeat: no-repeat; }
+
+.icon-document { background-image: url('png/document.png'); background-repeat: no-repeat; }
+
+.icon-documents { background-image: url('png/documents.png'); background-repeat: no-repeat; }
+
+.icon-dot-single { background-image: url('png/dot-single.png'); background-repeat: no-repeat; }
+
+.icon-dots-three-horizontal { background-image: url('png/dots-three-horizontal.png'); background-repeat: no-repeat; }
+
+.icon-dots-three-vertical { background-image: url('png/dots-three-vertical.png'); background-repeat: no-repeat; }
+
+.icon-dots-two-horizontal { background-image: url('png/dots-two-horizontal.png'); background-repeat: no-repeat; }
+
+.icon-dots-two-vertical { background-image: url('png/dots-two-vertical.png'); background-repeat: no-repeat; }
+
+.icon-download { background-image: url('png/download.png'); background-repeat: no-repeat; }
+
+.icon-dribbble-with-circle { background-image: url('png/dribbble-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-dribbble { background-image: url('png/dribbble.png'); background-repeat: no-repeat; }
+
+.icon-drink { background-image: url('png/drink.png'); background-repeat: no-repeat; }
+
+.icon-drive { background-image: url('png/drive.png'); background-repeat: no-repeat; }
+
+.icon-drop { background-image: url('png/drop.png'); background-repeat: no-repeat; }
+
+.icon-dropbox { background-image: url('png/dropbox.png'); background-repeat: no-repeat; }
+
+.icon-edit { background-image: url('png/edit.png'); background-repeat: no-repeat; }
+
+.icon-email { background-image: url('png/email.png'); background-repeat: no-repeat; }
+
+.icon-emoji-flirt { background-image: url('png/emoji-flirt.png'); background-repeat: no-repeat; }
+
+.icon-emoji-happy { background-image: url('png/emoji-happy.png'); background-repeat: no-repeat; }
+
+.icon-emoji-neutral { background-image: url('png/emoji-neutral.png'); background-repeat: no-repeat; }
+
+.icon-emoji-sad { background-image: url('png/emoji-sad.png'); background-repeat: no-repeat; }
+
+.icon-erase { background-image: url('png/erase.png'); background-repeat: no-repeat; }
+
+.icon-eraser { background-image: url('png/eraser.png'); background-repeat: no-repeat; }
+
+.icon-evernote { background-image: url('png/evernote.png'); background-repeat: no-repeat; }
+
+.icon-export { background-image: url('png/export.png'); background-repeat: no-repeat; }
+
+.icon-eye { background-image: url('png/eye.png'); background-repeat: no-repeat; }
+
+.icon-facebook-with-circle { background-image: url('png/facebook-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-facebook { background-image: url('png/facebook.png'); background-repeat: no-repeat; }
+
+.icon-feather { background-image: url('png/feather.png'); background-repeat: no-repeat; }
+
+.icon-flag { background-image: url('png/flag.png'); background-repeat: no-repeat; }
+
+.icon-flash { background-image: url('png/flash.png'); background-repeat: no-repeat; }
+
+.icon-flashlight { background-image: url('png/flashlight.png'); background-repeat: no-repeat; }
+
+.icon-flat-brush { background-image: url('png/flat-brush.png'); background-repeat: no-repeat; }
+
+.icon-flattr { background-image: url('png/flattr.png'); background-repeat: no-repeat; }
+
+.icon-flickr-with-circle { background-image: url('png/flickr-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-flickr { background-image: url('png/flickr.png'); background-repeat: no-repeat; }
+
+.icon-flow-branch { background-image: url('png/flow-branch.png'); background-repeat: no-repeat; }
+
+.icon-flow-cascade { background-image: url('png/flow-cascade.png'); background-repeat: no-repeat; }
+
+.icon-flow-line { background-image: url('png/flow-line.png'); background-repeat: no-repeat; }
+
+.icon-flow-parallel { background-image: url('png/flow-parallel.png'); background-repeat: no-repeat; }
+
+.icon-flow-tree { background-image: url('png/flow-tree.png'); background-repeat: no-repeat; }
+
+.icon-folder-images { background-image: url('png/folder-images.png'); background-repeat: no-repeat; }
+
+.icon-folder-music { background-image: url('png/folder-music.png'); background-repeat: no-repeat; }
+
+.icon-folder-video { background-image: url('png/folder-video.png'); background-repeat: no-repeat; }
+
+.icon-folder { background-image: url('png/folder.png'); background-repeat: no-repeat; }
+
+.icon-forward { background-image: url('png/forward.png'); background-repeat: no-repeat; }
+
+.icon-foursquare { background-image: url('png/foursquare.png'); background-repeat: no-repeat; }
+
+.icon-funnel { background-image: url('png/funnel.png'); background-repeat: no-repeat; }
+
+.icon-game-controller { background-image: url('png/game-controller.png'); background-repeat: no-repeat; }
+
+.icon-gauge { background-image: url('png/gauge.png'); background-repeat: no-repeat; }
+
+.icon-github-with-circle { background-image: url('png/github-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-github { background-image: url('png/github.png'); background-repeat: no-repeat; }
+
+.icon-globe { background-image: url('png/globe.png'); background-repeat: no-repeat; }
+
+.icon-google-drive { background-image: url('png/google-drive.png'); background-repeat: no-repeat; }
+
+.icon-google-hangouts { background-image: url('png/google-hangouts.png'); background-repeat: no-repeat; }
+
+.icon-google-with-circle { background-image: url('png/google-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-google { background-image: url('png/google.png'); background-repeat: no-repeat; }
+
+.icon-graduation-cap { background-image: url('png/graduation-cap.png'); background-repeat: no-repeat; }
+
+.icon-grid { background-image: url('png/grid.png'); background-repeat: no-repeat; }
+
+.icon-grooveshark { background-image: url('png/grooveshark.png'); background-repeat: no-repeat; }
+
+.icon-hair-cross { background-image: url('png/hair-cross.png'); background-repeat: no-repeat; }
+
+.icon-hand { background-image: url('png/hand.png'); background-repeat: no-repeat; }
+
+.icon-heart-outlined { background-image: url('png/heart-outlined.png'); background-repeat: no-repeat; }
+
+.icon-heart { background-image: url('png/heart.png'); background-repeat: no-repeat; }
+
+.icon-help-with-circle { background-image: url('png/help-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-help { background-image: url('png/help.png'); background-repeat: no-repeat; }
+
+.icon-home { background-image: url('png/home.png'); background-repeat: no-repeat; }
+
+.icon-hour-glass { background-image: url('png/hour-glass.png'); background-repeat: no-repeat; }
+
+.icon-icloud { background-image: url('png/icloud.png'); background-repeat: no-repeat; }
+
+.icon-image-inverted { background-image: url('png/image-inverted.png'); background-repeat: no-repeat; }
+
+.icon-image { background-image: url('png/image.png'); background-repeat: no-repeat; }
+
+.icon-images { background-image: url('png/images.png'); background-repeat: no-repeat; }
+
+.icon-inbox { background-image: url('png/inbox.png'); background-repeat: no-repeat; }
+
+.icon-infinity { background-image: url('png/infinity.png'); background-repeat: no-repeat; }
+
+.icon-info-with-circle { background-image: url('png/info-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-info { background-image: url('png/info.png'); background-repeat: no-repeat; }
+
+.icon-instagram-with-circle { background-image: url('png/instagram-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-instagram { background-image: url('png/instagram.png'); background-repeat: no-repeat; }
+
+.icon-install { background-image: url('png/install.png'); background-repeat: no-repeat; }
+
+.icon-key { background-image: url('png/key.png'); background-repeat: no-repeat; }
+
+.icon-keyboard { background-image: url('png/keyboard.png'); background-repeat: no-repeat; }
+
+.icon-lab-flask { background-image: url('png/lab-flask.png'); background-repeat: no-repeat; }
+
+.icon-landline { background-image: url('png/landline.png'); background-repeat: no-repeat; }
+
+.icon-language { background-image: url('png/language.png'); background-repeat: no-repeat; }
+
+.icon-laptop { background-image: url('png/laptop.png'); background-repeat: no-repeat; }
+
+.icon-lastfm-with-circle { background-image: url('png/lastfm-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-lastfm { background-image: url('png/lastfm.png'); background-repeat: no-repeat; }
+
+.icon-layers { background-image: url('png/layers.png'); background-repeat: no-repeat; }
+
+.icon-leaf { background-image: url('png/leaf.png'); background-repeat: no-repeat; }
+
+.icon-level-down { background-image: url('png/level-down.png'); background-repeat: no-repeat; }
+
+.icon-level-up { background-image: url('png/level-up.png'); background-repeat: no-repeat; }
+
+.icon-lifebuoy { background-image: url('png/lifebuoy.png'); background-repeat: no-repeat; }
+
+.icon-light-bulb { background-image: url('png/light-bulb.png'); background-repeat: no-repeat; }
+
+.icon-light-down { background-image: url('png/light-down.png'); background-repeat: no-repeat; }
+
+.icon-light-up { background-image: url('png/light-up.png'); background-repeat: no-repeat; }
+
+.icon-line-graph { background-image: url('png/line-graph.png'); background-repeat: no-repeat; }
+
+.icon-link { background-image: url('png/link.png'); background-repeat: no-repeat; }
+
+.icon-linkedin-with-circle { background-image: url('png/linkedin-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-linkedin { background-image: url('png/linkedin.png'); background-repeat: no-repeat; }
+
+.icon-list { background-image: url('png/list.png'); background-repeat: no-repeat; }
+
+.icon-location-pin { background-image: url('png/location-pin.png'); background-repeat: no-repeat; }
+
+.icon-location { background-image: url('png/location.png'); background-repeat: no-repeat; }
+
+.icon-lock-open { background-image: url('png/lock-open.png'); background-repeat: no-repeat; }
+
+.icon-lock { background-image: url('png/lock.png'); background-repeat: no-repeat; }
+
+.icon-log-out { background-image: url('png/log-out.png'); background-repeat: no-repeat; }
+
+.icon-login { background-image: url('png/login.png'); background-repeat: no-repeat; }
+
+.icon-loop { background-image: url('png/loop.png'); background-repeat: no-repeat; }
+
+.icon-magnet { background-image: url('png/magnet.png'); background-repeat: no-repeat; }
+
+.icon-magnifying-glass { background-image: url('png/magnifying-glass.png'); background-repeat: no-repeat; }
+
+.icon-mail { background-image: url('png/mail.png'); background-repeat: no-repeat; }
+
+.icon-man { background-image: url('png/man.png'); background-repeat: no-repeat; }
+
+.icon-map { background-image: url('png/map.png'); background-repeat: no-repeat; }
+
+.icon-mask { background-image: url('png/mask.png'); background-repeat: no-repeat; }
+
+.icon-medal { background-image: url('png/medal.png'); background-repeat: no-repeat; }
+
+.icon-megaphone { background-image: url('png/megaphone.png'); background-repeat: no-repeat; }
+
+.icon-menu { background-image: url('png/menu.png'); background-repeat: no-repeat; }
+
+.icon-message { background-image: url('png/message.png'); background-repeat: no-repeat; }
+
+.icon-mic { background-image: url('png/mic.png'); background-repeat: no-repeat; }
+
+.icon-minus { background-image: url('png/minus.png'); background-repeat: no-repeat; }
+
+.icon-mixi { background-image: url('png/mixi.png'); background-repeat: no-repeat; }
+
+.icon-mobile { background-image: url('png/mobile.png'); background-repeat: no-repeat; }
+
+.icon-modern-mic { background-image: url('png/modern-mic.png'); background-repeat: no-repeat; }
+
+.icon-moon { background-image: url('png/moon.png'); background-repeat: no-repeat; }
+
+.icon-mouse { background-image: url('png/mouse.png'); background-repeat: no-repeat; }
+
+.icon-music { background-image: url('png/music.png'); background-repeat: no-repeat; }
+
+.icon-network { background-image: url('png/network.png'); background-repeat: no-repeat; }
+
+.icon-new-message { background-image: url('png/new-message.png'); background-repeat: no-repeat; }
+
+.icon-new { background-image: url('png/new.png'); background-repeat: no-repeat; }
+
+.icon-news { background-image: url('png/news.png'); background-repeat: no-repeat; }
+
+.icon-note { background-image: url('png/note.png'); background-repeat: no-repeat; }
+
+.icon-notification { background-image: url('png/notification.png'); background-repeat: no-repeat; }
+
+.icon-old-mobile { background-image: url('png/old-mobile.png'); background-repeat: no-repeat; }
+
+.icon-old-phone { background-image: url('png/old-phone.png'); background-repeat: no-repeat; }
+
+.icon-onedrive { background-image: url('png/onedrive.png'); background-repeat: no-repeat; }
+
+.icon-open-book { background-image: url('png/open-book.png'); background-repeat: no-repeat; }
+
+.icon-palette { background-image: url('png/palette.png'); background-repeat: no-repeat; }
+
+.icon-paper-plane { background-image: url('png/paper-plane.png'); background-repeat: no-repeat; }
+
+.icon-paypal { background-image: url('png/paypal.png'); background-repeat: no-repeat; }
+
+.icon-pencil { background-image: url('png/pencil.png'); background-repeat: no-repeat; }
+
+.icon-phone { background-image: url('png/phone.png'); background-repeat: no-repeat; }
+
+.icon-picasa { background-image: url('png/picasa.png'); background-repeat: no-repeat; }
+
+.icon-pie-chart { background-image: url('png/pie-chart.png'); background-repeat: no-repeat; }
+
+.icon-pin { background-image: url('png/pin.png'); background-repeat: no-repeat; }
+
+.icon-pinterest-with-circle { background-image: url('png/pinterest-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-pinterest { background-image: url('png/pinterest.png'); background-repeat: no-repeat; }
+
+.icon-plus { background-image: url('png/plus.png'); background-repeat: no-repeat; }
+
+.icon-popup { background-image: url('png/popup.png'); background-repeat: no-repeat; }
+
+.icon-power-plug { background-image: url('png/power-plug.png'); background-repeat: no-repeat; }
+
+.icon-price-ribbon { background-image: url('png/price-ribbon.png'); background-repeat: no-repeat; }
+
+.icon-price-tag { background-image: url('png/price-tag.png'); background-repeat: no-repeat; }
+
+.icon-print { background-image: url('png/print.png'); background-repeat: no-repeat; }
+
+.icon-progress-empty { background-image: url('png/progress-empty.png'); background-repeat: no-repeat; }
+
+.icon-progress-full { background-image: url('png/progress-full.png'); background-repeat: no-repeat; }
+
+.icon-progress-one { background-image: url('png/progress-one.png'); background-repeat: no-repeat; }
+
+.icon-progress-two { background-image: url('png/progress-two.png'); background-repeat: no-repeat; }
+
+.icon-publish { background-image: url('png/publish.png'); background-repeat: no-repeat; }
+
+.icon-px-with-circle { background-image: url('png/px-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-px { background-image: url('png/px.png'); background-repeat: no-repeat; }
+
+.icon-qq { background-image: url('png/qq.png'); background-repeat: no-repeat; }
+
+.icon-quote { background-image: url('png/quote.png'); background-repeat: no-repeat; }
+
+.icon-radio { background-image: url('png/radio.png'); background-repeat: no-repeat; }
+
+.icon-rdio-with-circle { background-image: url('png/rdio-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-rdio { background-image: url('png/rdio.png'); background-repeat: no-repeat; }
+
+.icon-remove-user { background-image: url('png/remove-user.png'); background-repeat: no-repeat; }
+
+.icon-renren { background-image: url('png/renren.png'); background-repeat: no-repeat; }
+
+.icon-reply-all { background-image: url('png/reply-all.png'); background-repeat: no-repeat; }
+
+.icon-reply { background-image: url('png/reply.png'); background-repeat: no-repeat; }
+
+.icon-resize-100 { background-image: url('png/resize-100.png'); background-repeat: no-repeat; }
+
+.icon-resize-full-screen { background-image: url('png/resize-full-screen.png'); background-repeat: no-repeat; }
+
+.icon-retweet { background-image: url('png/retweet.png'); background-repeat: no-repeat; }
+
+.icon-rocket { background-image: url('png/rocket.png'); background-repeat: no-repeat; }
+
+.icon-round-brush { background-image: url('png/round-brush.png'); background-repeat: no-repeat; }
+
+.icon-rss { background-image: url('png/rss.png'); background-repeat: no-repeat; }
+
+.icon-ruler { background-image: url('png/ruler.png'); background-repeat: no-repeat; }
+
+.icon-save { background-image: url('png/save.png'); background-repeat: no-repeat; }
+
+.icon-scissors { background-image: url('png/scissors.png'); background-repeat: no-repeat; }
+
+.icon-scribd { background-image: url('png/scribd.png'); background-repeat: no-repeat; }
+
+.icon-select-arrows { background-image: url('png/select-arrows.png'); background-repeat: no-repeat; }
+
+.icon-share-alternitive { background-image: url('png/share-alternitive.png'); background-repeat: no-repeat; }
+
+.icon-share { background-image: url('png/share.png'); background-repeat: no-repeat; }
+
+.icon-shareable { background-image: url('png/shareable.png'); background-repeat: no-repeat; }
+
+.icon-shield { background-image: url('png/shield.png'); background-repeat: no-repeat; }
+
+.icon-shop { background-image: url('png/shop.png'); background-repeat: no-repeat; }
+
+.icon-shopping-bag { background-image: url('png/shopping-bag.png'); background-repeat: no-repeat; }
+
+.icon-shopping-basket { background-image: url('png/shopping-basket.png'); background-repeat: no-repeat; }
+
+.icon-shopping-cart { background-image: url('png/shopping-cart.png'); background-repeat: no-repeat; }
+
+.icon-shuffle { background-image: url('png/shuffle.png'); background-repeat: no-repeat; }
+
+.icon-signal { background-image: url('png/signal.png'); background-repeat: no-repeat; }
+
+.icon-sina-weibo { background-image: url('png/sina-weibo.png'); background-repeat: no-repeat; }
+
+.icon-skype-with-circle { background-image: url('png/skype-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-skype { background-image: url('png/skype.png'); background-repeat: no-repeat; }
+
+.icon-slideshare { background-image: url('png/slideshare.png'); background-repeat: no-repeat; }
+
+.icon-smashing { background-image: url('png/smashing.png'); background-repeat: no-repeat; }
+
+.icon-sound-mix { background-image: url('png/sound-mix.png'); background-repeat: no-repeat; }
+
+.icon-sound-mute { background-image: url('png/sound-mute.png'); background-repeat: no-repeat; }
+
+.icon-sound { background-image: url('png/sound.png'); background-repeat: no-repeat; }
+
+.icon-soundcloud { background-image: url('png/soundcloud.png'); background-repeat: no-repeat; }
+
+.icon-sports-club { background-image: url('png/sports-club.png'); background-repeat: no-repeat; }
+
+.icon-spotify-with-circle { background-image: url('png/spotify-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-spotify { background-image: url('png/spotify.png'); background-repeat: no-repeat; }
+
+.icon-spreadsheet { background-image: url('png/spreadsheet.png'); background-repeat: no-repeat; }
+
+.icon-squared-cross { background-image: url('png/squared-cross.png'); background-repeat: no-repeat; }
+
+.icon-squared-minus { background-image: url('png/squared-minus.png'); background-repeat: no-repeat; }
+
+.icon-squared-plus { background-image: url('png/squared-plus.png'); background-repeat: no-repeat; }
+
+.icon-star-outlined { background-image: url('png/star-outlined.png'); background-repeat: no-repeat; }
+
+.icon-star { background-image: url('png/star.png'); background-repeat: no-repeat; }
+
+.icon-stopwatch { background-image: url('png/stopwatch.png'); background-repeat: no-repeat; }
+
+.icon-stumbleupon-with-circle { background-image: url('png/stumbleupon-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-stumbleupon { background-image: url('png/stumbleupon.png'); background-repeat: no-repeat; }
+
+.icon-suitcase { background-image: url('png/suitcase.png'); background-repeat: no-repeat; }
+
+.icon-swap { background-image: url('png/swap.png'); background-repeat: no-repeat; }
+
+.icon-swarm { background-image: url('png/swarm.png'); background-repeat: no-repeat; }
+
+.icon-sweden { background-image: url('png/sweden.png'); background-repeat: no-repeat; }
+
+.icon-switch { background-image: url('png/switch.png'); background-repeat: no-repeat; }
+
+.icon-tablet { background-image: url('png/tablet.png'); background-repeat: no-repeat; }
+
+.icon-tag { background-image: url('png/tag.png'); background-repeat: no-repeat; }
+
+.icon-text-document-inverted { background-image: url('png/text-document-inverted.png'); background-repeat: no-repeat; }
+
+.icon-text-document { background-image: url('png/text-document.png'); background-repeat: no-repeat; }
+
+.icon-text { background-image: url('png/text.png'); background-repeat: no-repeat; }
+
+.icon-thermometer { background-image: url('png/thermometer.png'); background-repeat: no-repeat; }
+
+.icon-thumbs-down { background-image: url('png/thumbs-down.png'); background-repeat: no-repeat; }
+
+.icon-thumbs-up { background-image: url('png/thumbs-up.png'); background-repeat: no-repeat; }
+
+.icon-thunder-cloud { background-image: url('png/thunder-cloud.png'); background-repeat: no-repeat; }
+
+.icon-ticket { background-image: url('png/ticket.png'); background-repeat: no-repeat; }
+
+.icon-time-slot { background-image: url('png/time-slot.png'); background-repeat: no-repeat; }
+
+.icon-tools { background-image: url('png/tools.png'); background-repeat: no-repeat; }
+
+.icon-traffic-cone { background-image: url('png/traffic-cone.png'); background-repeat: no-repeat; }
+
+.icon-trash { background-image: url('png/trash.png'); background-repeat: no-repeat; }
+
+.icon-tree { background-image: url('png/tree.png'); background-repeat: no-repeat; }
+
+.icon-triangle-down { background-image: url('png/triangle-down.png'); background-repeat: no-repeat; }
+
+.icon-triangle-left { background-image: url('png/triangle-left.png'); background-repeat: no-repeat; }
+
+.icon-triangle-right { background-image: url('png/triangle-right.png'); background-repeat: no-repeat; }
+
+.icon-triangle-up { background-image: url('png/triangle-up.png'); background-repeat: no-repeat; }
+
+.icon-trophy { background-image: url('png/trophy.png'); background-repeat: no-repeat; }
+
+.icon-tumblr-with-circle { background-image: url('png/tumblr-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-tumblr { background-image: url('png/tumblr.png'); background-repeat: no-repeat; }
+
+.icon-tv { background-image: url('png/tv.png'); background-repeat: no-repeat; }
+
+.icon-twitter-with-circle { background-image: url('png/twitter-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-twitter { background-image: url('png/twitter.png'); background-repeat: no-repeat; }
+
+.icon-typing { background-image: url('png/typing.png'); background-repeat: no-repeat; }
+
+.icon-uninstall { background-image: url('png/uninstall.png'); background-repeat: no-repeat; }
+
+.icon-unread { background-image: url('png/unread.png'); background-repeat: no-repeat; }
+
+.icon-untag { background-image: url('png/untag.png'); background-repeat: no-repeat; }
+
+.icon-upload-to-cloud { background-image: url('png/upload-to-cloud.png'); background-repeat: no-repeat; }
+
+.icon-upload { background-image: url('png/upload.png'); background-repeat: no-repeat; }
+
+.icon-user { background-image: url('png/user.png'); background-repeat: no-repeat; }
+
+.icon-users { background-image: url('png/users.png'); background-repeat: no-repeat; }
+
+.icon-v-card { background-image: url('png/v-card.png'); background-repeat: no-repeat; }
+
+.icon-video { background-image: url('png/video.png'); background-repeat: no-repeat; }
+
+.icon-vimeo-with-circle { background-image: url('png/vimeo-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-vimeo { background-image: url('png/vimeo.png'); background-repeat: no-repeat; }
+
+.icon-vine-with-circle { background-image: url('png/vine-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-vine { background-image: url('png/vine.png'); background-repeat: no-repeat; }
+
+.icon-vinyl { background-image: url('png/vinyl.png'); background-repeat: no-repeat; }
+
+.icon-vk-alternitive { background-image: url('png/vk-alternitive.png'); background-repeat: no-repeat; }
+
+.icon-vk-with-circle { background-image: url('png/vk-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-vk { background-image: url('png/vk.png'); background-repeat: no-repeat; }
+
+.icon-voicemail { background-image: url('png/voicemail.png'); background-repeat: no-repeat; }
+
+.icon-wallet { background-image: url('png/wallet.png'); background-repeat: no-repeat; }
+
+.icon-warning { background-image: url('png/warning.png'); background-repeat: no-repeat; }
+
+.icon-water { background-image: url('png/water.png'); background-repeat: no-repeat; }
+
+.icon-xing-with-circle { background-image: url('png/xing-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-xing { background-image: url('png/xing.png'); background-repeat: no-repeat; }
+
+.icon-yelp { background-image: url('png/yelp.png'); background-repeat: no-repeat; }
+
+.icon-youtube-with-circle { background-image: url('png/youtube-with-circle.png'); background-repeat: no-repeat; }
+
+.icon-youtube { background-image: url('png/youtube.png'); background-repeat: no-repeat; }
+

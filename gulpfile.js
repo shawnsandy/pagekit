@@ -1,13 +1,23 @@
-var glob = require("glob");
-var gulp = require("gulp");
-var gulpicon = require("gulpicon/tasks/gulpicon");
+var gulp      = require('gulp');
+var q         = require('q');
+var path      = require('path');
+var fs        = require('fs');
+var Grunticon = require('grunticon-lib');
 
-// grab the config, tack on the output destination
-var config = require("./config-icons.js");
-config.dest = "src/public/icons";
+gulp.task('icons', function () {
+  var deferred = q.defer(),
+      iconDir = 'svgs/entypo_385_icons/SVG/',
+      options = { enhanceSVG: true };
 
-// grab the file paths
-var files = glob.sync(["packages/typicons.font/src/svg/*.svg", "packages/typicons.font/src/svg/*.svg"]);
+  var files = fs.readdirSync(iconDir).map(function (fileName) {
+    return path.join(iconDir, fileName);
+  });
 
-// set up the gulp task
-gulp.task("icons", gulpicon(files, config));
+  var grunticon = new Grunticon(files, 'src/public/icons', options);
+
+  grunticon.process(function () {
+    deferred.resolve();
+  });
+
+  return deferred.promise;
+});
