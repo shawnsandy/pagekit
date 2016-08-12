@@ -29,6 +29,7 @@
   "homepage": "https://github.com/shawnsandy/pagekit#readme",
   "devDependencies": {
     "autoprefixer": "^6.4.0",
+    "copyfiles": "^1.0.0",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulpicon": "^0.1.2",
