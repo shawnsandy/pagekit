@@ -1,0 +1,228 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-comment-alt2-stroke {
+  width: 0.875em;
+}
+
+.icon-comment-alt2-fill {
+  width: 0.875em;
+}
+
+.icon-wrench {
+  width: 0.998046875em;
+}
+
+.icon-dial {
+  width: 1.00390625em;
+}
+
+.icon-share {
+  width: 0.998046875em;
+}
+
+.icon-document-alt-stroke {
+  width: 0.75em;
+}
+
+.icon-document-alt-fill {
+  width: 0.75em;
+}
+
+.icon-award-fill {
+  width: 0.5em;
+}
+
+.icon-award-stroke {
+  width: 0.5em;
+}
+
+.icon-beaker-alt {
+  width: 0.5em;
+}
+
+.icon-beaker {
+  width: 0.5em;
+}
+
+.icon-lightbulb {
+  width: 0.625em;
+}
+
+.icon-spin {
+  width: 0.875em;
+}
+
+.icon-undo {
+  width: 0.998046875em;
+}
+
+.icon-transfer {
+  width: 0.998046875em;
+}
+
+.icon-move-vertical {
+  width: 0.375em;
+}
+
+.icon-move-vertical-alt1 {
+  width: 0.375em;
+}
+
+.icon-microphone {
+  width: 0.75em;
+}
+
+.icon-play {
+  width: 0.75em;
+}
+
+.icon-pause {
+  width: 0.75em;
+}
+
+.icon-iphone {
+  width: 0.75em;
+}
+
+.icon-ampersand {
+  width: 0.58203125em;
+}
+
+.icon-info {
+  width: 0.5em;
+}
+
+.icon-question-mark {
+  width: 0.5em;
+}
+
+.icon-pilcrow {
+  width: 0.75em;
+}
+
+.icon-hash {
+  width: 0.875em;
+}
+
+.icon-list {
+  width: 1.142578125em;
+}
+
+.icon-list-nested {
+  width: 1.142578125em;
+}
+
+.icon-book {
+  width: 0.875em;
+}
+
+.icon-pen-alt2 {
+  width: 0.998046875em;
+}
+
+.icon-brush {
+  width: 0.998046875em;
+}
+
+.icon-brush-alt {
+  width: 0.998046875em;
+}
+
+.icon-eyedropper {
+  width: 0.998046875em;
+}
+
+.icon-layers-alt {
+  width: 0.998046875em;
+}
+
+.icon-layers {
+  width: 0.998046875em;
+}
+
+.icon-chart {
+  width: 0.998046875em;
+}
+
+.icon-chart-alt {
+  width: 0.9375em;
+}
+
+.icon-bars-alt {
+  width: 0.875em;
+}
+
+.icon-user {
+  width: 0.75em;
+}
+
+.icon-lock-stroke {
+  width: 0.75em;
+}
+
+.icon-lock-fill {
+  width: 0.75em;
+}
+
+.icon-unlock-stroke {
+  width: 0.75em;
+}
+
+.icon-unlock-fill {
+  width: 0.75em;
+}
+
+.icon-sun-stroke {
+  width: 0.998046875em;
+}
+
+.icon-sun-fill {
+  width: 0.998046875em;
+}
+
+.icon-rain {
+  width: 0.998046875em;
+}
+
+.icon-umbrella {
+  width: 0.998046875em;
+}
+
+.icon-map-pin-stroke {
+  width: 0.625em;
+}
+
+.icon-map-pin-fill {
+  width: 0.625em;
+}
+
+.icon-map-pin-alt {
+  width: 0.5em;
+}
+
+.icon-download {
+  width: 0.75em;
+}
+
+.icon-upload {
+  width: 0.75em;
+}
+
+.icon-fork {
+  width: 0.875em;
+}

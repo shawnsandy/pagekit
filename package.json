@@ -31,12 +31,14 @@
     "autoprefixer": "^6.4.0",
     "copyfiles": "^1.0.0",
     "font-awesome": "^4.6.3",
+    "glob": "^7.0.5",
     "gulp": "^3.9.1",
     "gulpicon": "^0.1.2",
     "node-sass": "^3.8.0",
     "onchange": "^2.5.0",
     "postcss-cli": "^2.5.2",
-    "typicons.font": "^2.0.7"
+    "typicons.font": "^2.0.7",
+    "underscore": "^1.8.3"
   },
   "dependencies": {
     "aos": "^2.0.4"

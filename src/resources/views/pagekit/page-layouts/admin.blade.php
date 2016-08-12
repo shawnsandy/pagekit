@@ -65,7 +65,7 @@
         overflow: hidden;
         float: left;
         border-right: #f2f2f2 1px solid;
-        background-color: #FFF;
+        background-color: #F3f3f3;
         word-wrap: normal;
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
