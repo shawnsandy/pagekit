@@ -43,8 +43,6 @@ You can publish individual pagekit tags using `--tags`, *please note* that the `
 php artisan vendor:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider" --tag=name
 
 ```
-
-
 * `-tag=public` publishes your pagekit public assets / files to `/public/` 
 * `-tag=views` publishes your views to `vendor\pagekit`
 * `-tag=config` publishes `config\pagekit` to `config`
