@@ -74,7 +74,6 @@
         overflow: hidden;
         position: absolute;
     }
-
     .sidebar-closed .sidebar {
         width: 80px;
 
@@ -156,13 +155,19 @@
     }
 
     .sidebar-closed .dashboard > .container-fluid {
-        margin-left: 110px;
+        margin-left: 90px;
     }
 
     .footer {
         width: 100%;
         background-color: lightgrey;
     }
+
+
+    .dash-panel {
+       min-height: 180px;
+    }
+
 </style>
 @endpush
 @push('scripts')
