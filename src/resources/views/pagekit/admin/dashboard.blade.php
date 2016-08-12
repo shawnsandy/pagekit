@@ -1,6 +1,5 @@
 @extends('page::page-layouts.admin')
 @section('content')
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
@@ -44,10 +43,6 @@
             </div>
         </section>
         <div class="row">
-
         </div>
-
-
-
     </div>
 @endsection
