@@ -48,6 +48,8 @@ php artisan vendor:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider
 * `-tag=public` publishes your pagekit public assets / files to `/public/` 
 * `-tag=views` publishes your views to `vendor\pagekit`
 * `-tag=config` publishes `config\pagekit` to `config`
+* `-tag=icons` publishes sgv icons (entypo / social) to `public/icons`
+* `-tag=icons_material` publishes material svg icons to `public/icons`
 
 ## Usage
 
