@@ -35,6 +35,17 @@ class PageKitServiceProvider extends ServiceProvider
         );
 
         $this->publishes(
+            [__DIR__.'/public/icons/entypo' => public_path('icons/entypo')],
+            [__DIR__.'/public/icons/social' => public_path('icons/social')],
+            'icons'
+        );
+
+        $this->publishes(
+            [__DIR__.'/public/icons/material' => public_path('icons/material')],
+            'material_icons'
+        );
+
+        $this->publishes(
             [ __DIR__ . '/config/pagekit.php' => config_path('pagekit.php')],
             'config'
         );
