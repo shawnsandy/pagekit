@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased; }
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table; }
+
+header {
+    height: 30%;
+    max-height: 300px;
+    min-height: 200px;
+    background: #eeeeee; }
+    header.landing {
+        height: 75%;
+        max-height: 640px; }
+
+header.landing h1 {
+    font-size: 72px; }
+
+main, section, footer {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+
+footer {
+    background-color: #333333;
+    color: #777777; }
+
+.layout-table {
+    display: table;
+    width: 100% !important;
+    height: 100% !important; }
+
+.layout-row {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+
+.cover {
+    height: 100%; }

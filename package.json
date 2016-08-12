@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --output-style nested --indent-type space --indent-width 4 src/resources/assets/app.scss src/public/css/pagekit/app.css",
+    "scss": "node-sass --output-style nested --indent-type space --indent-width 4 -r -o src/public/css/pagekit src/resources/assets",
     "autoprefixer": "postcss -u autoprefixer -r /src/public/css/pagekit/*.css",
     "fonts": "cp -R packages/typicons.font/src/font src/public/vendor/typicons",
     "animatecss": "cp -R packages/animate.css/animate.css src/public/vendor",
@@ -31,7 +31,9 @@
     "autoprefixer": "^6.4.0",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
+    "gulpicon": "^0.1.2",
     "node-sass": "^3.8.0",
+    "onchange": "^2.5.0",
     "postcss-cli": "^2.5.2",
     "typicons.font": "^2.0.7"
   },

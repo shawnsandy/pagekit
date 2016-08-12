@@ -166,6 +166,7 @@
 
     .dash-panel {
        min-height: 180px;
+        border-top: 3px solid #e6e6e6;
     }
 
 </style>

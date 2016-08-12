@@ -26,5 +26,9 @@
   "dependencies": {
     "typicons.font": "typicons#^2.0.7",
     "animate.css": "^3.5.2"
+  },
+  "devDependencies": {
+    "typicons.font": "typicons#^2.0.7",
+    "material-design-icons": "^2.2.3"
   }
 }
