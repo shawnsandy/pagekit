@@ -13,6 +13,10 @@ gulp.task('icons:material', function () {
     icons('svgs/material_845_icons/SVG/', 'material');
 });
 
+gulp.task('icons:social', function () {
+    icons('svgs/pk-social/SVG/', 'social');
+});
+
 const icons = function (iconsDir, outputDir) {
     var deferred = q.defer(),
         iconDir = iconsDir;
