@@ -43,6 +43,8 @@
 
 {{--<link rel='stylesheet' href='/vendor/typicons/typicons.min.css' />--}}
 <link rel='stylesheet' href='/vendor/font-awesome/css/font-awesome.min.css'/>
+<link rel='stylesheet' href='/icons/entypo/grunticon.loader.js'/>
+<noscript><link href="/icons/entypo/icons.fallback.css" rel="stylesheet"></noscript>
 <link rel='stylesheet' href='/vendor/animate.css'/>
 <style>
 

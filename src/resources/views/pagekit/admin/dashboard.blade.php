@@ -29,6 +29,7 @@
                 <div class="col-md-3">
                     <div class="panel panel-default dash-panel">
                         <div class="panel-body">
+                            <div class="icon-add-to-list" style="width: 20px; height: 20px;" ></div>
                             Basic panel example
                         </div>
                     </div>
