@@ -1,3 +1,5 @@
+@import "../variables";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 html, body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
@@ -15,8 +17,9 @@ header {
     max-height: 300px;
     min-height: 200px;
     background-color: $gray-lighter;
-    background-image: url("/img/bg/05.jpg");background-position: center center;
-  background-size: cover;
+    background-image: url("/img/bg/05.jpg");
+    background-position: center center;
+    background-size: cover;
     &.landing {
         height: 75%;
         max-height: 640px;
