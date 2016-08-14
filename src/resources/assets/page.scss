@@ -14,7 +14,9 @@ header {
     height: 30%;
     max-height: 300px;
     min-height: 200px;
-    background: $gray-lighter;
+    background-color: $gray-lighter;
+    background-image: url("/img/bg/05.jpg");background-position: center center;
+  background-size: cover;
     &.landing {
         height: 75%;
         max-height: 640px;
