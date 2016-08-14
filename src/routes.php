@@ -19,10 +19,19 @@ Route::group( ['prefix' => 'page'], function () {
 
     Route::group(['prefix' => 'admin'], function(){
 
-        Route::get('/{name}', function($name){
-           return view('page::admin.'. $name);
-        });
 
+    });
+
+});
+
+Route::group(['prefix' => 'dashboard'], function(){
+
+    Route::get('', function(){
+        return view('page::admin.dashboard');
+    });
+
+    Route::get('{name}', function($name){
+        return view('page::admin.'. $name);
     });
 
 });
