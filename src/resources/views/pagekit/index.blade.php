@@ -25,7 +25,7 @@
 @endsection
 
 @push('styles')
-<link rel="stylesheet" href="/vendor/aos/aos.css" />
+
 <style type="text/css">
     .logo {
         display: none;
