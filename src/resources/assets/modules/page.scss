@@ -1,5 +1,6 @@
 @import "../variables";
 @import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
 html, body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
@@ -13,35 +14,53 @@ body {
 }
 
 header {
-    height: 30%;
-    max-height: 300px;
-    min-height: 200px;
-    background-color: $gray-lighter;
+  height: 30%;
+  max-height: 300px;
+  min-height: 200px;
+  background-color: $gray-lighter;
+  background-position: center center;
+  background-size: cover;
+  &.landing {
+    height: 75%;
+    max-height: 640px;
+  }
+
+  &.bg-1 {
+    background-image: url("/img/bg/01.jpg");
+  }
+  &.bg-2 {
+    background-image: url("/img/bg/02.jpg");
+  }
+  &.bg-3 {
+    background-image: url("/img/bg/03.jpg");
+  }
+  &.bg-4 {
+    background-image: url("/img/bg/04.jpg");
+  }
+  &.bg-5 {
     background-image: url("/img/bg/05.jpg");
-    background-position: center center;
-    background-size: cover;
-    &.landing {
-        height: 75%;
-        max-height: 640px;
-    }
+  }
+  &.bg-6 {
+    background-image: url("/img/bg/06.jpg");
+  }
+  &.bg-7 {
+    background-image: url("/img/bg/07.jpg");
+  }
 
 }
-
 
 header.landing h1 {
-    font-size: 72px;
+  font-size: 72px;
 }
-
 
 main, section, footer {
-    padding-top: $base-padding;
-    padding-bottom: $base-padding;
+  padding-top: $base-padding;
+  padding-bottom: $base-padding;
 }
 
-
 footer {
-    background-color: $gray-dark;
-    color: $gray-light ;
+  background-color: $gray-dark;
+  color: $gray-light;
 }
 
 .layout-table {
