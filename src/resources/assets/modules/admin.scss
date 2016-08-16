@@ -1,5 +1,6 @@
 @import "../variables";
 @import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
 #wrapper {
 
 }
@@ -27,6 +28,30 @@
   transition: all 0.5s ease;
   overflow: hidden;
   position: absolute;
+
+
+  i.fa {
+    font-size: 21px;
+    padding: 0 10px 0 10px;
+    display: block;
+  }
+
+  i.fa-times-circle {
+    display: none;
+  }
+
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  li {
+    text-align: center;
+    padding: 20px 0 20px;
+    border-bottom: 1px solid #f6f6f6;
+    overflow: hidden;
+    height: 80px;
+  }
+
 }
 
 .sidebar-closed .sidebar {
@@ -34,19 +59,6 @@
   & a {
     padding: 10px 0 10px 0;
   }
-}
-
-
-.sidebar a:hover, .sidebar a:focus {
-  text-decoration: none;
-}
-
-.sidebar li {
-  text-align: center;
-  padding: 20px 0 20px;
-  border-bottom: 1px solid #f6f6f6;
-  overflow: hidden;
-  height: 80px;
 }
 
 .sidebar ul:first-child {
@@ -59,16 +71,6 @@
 
 li:first-child {
   height: 60px;
-}
-
-i.fa {
-  font-size: 21px;
-  padding: 0 10px 0 10px;
-  display: block;
-}
-
-i.fa-times-circle {
-  display: none;
 }
 
 .nav-title {

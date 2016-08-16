@@ -49,7 +49,7 @@ header {
 
 }
 
-header.landing h1 {
+header.landing h1, .headline {
   font-size: 72px;
 }
 
@@ -75,6 +75,21 @@ footer {
   vertical-align: middle;
 }
 
+.g-map {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: $gray-lighter;
+}
+
 .cover {
   height: 100%;
+}
+
+#contact-form {
+  label {
+    font-size: 12px;
+    font-weight: normal;
+    color: $gray-lighter;
+  }
 }

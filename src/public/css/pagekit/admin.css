@@ -20,21 +20,25 @@
     transition: all 0.5s ease;
     overflow: hidden;
     position: absolute; }
+    .sidebar i.fa {
+        font-size: 21px;
+        padding: 0 10px 0 10px;
+        display: block; }
+    .sidebar i.fa-times-circle {
+        display: none; }
+    .sidebar a:hover, .sidebar a:focus {
+        text-decoration: none; }
+    .sidebar li {
+        text-align: center;
+        padding: 20px 0 20px;
+        border-bottom: 1px solid #f6f6f6;
+        overflow: hidden;
+        height: 80px; }
 
 .sidebar-closed .sidebar {
     width: 80px; }
     .sidebar-closed .sidebar a {
         padding: 10px 0 10px 0; }
-
-.sidebar a:hover, .sidebar a:focus {
-    text-decoration: none; }
-
-.sidebar li {
-    text-align: center;
-    padding: 20px 0 20px;
-    border-bottom: 1px solid #f6f6f6;
-    overflow: hidden;
-    height: 80px; }
 
 .sidebar ul:first-child {
     text-align: left; }
@@ -44,14 +48,6 @@
 
 li:first-child {
     height: 60px; }
-
-i.fa {
-    font-size: 21px;
-    padding: 0 10px 0 10px;
-    display: block; }
-
-i.fa-times-circle {
-    display: none; }
 
 .nav-title {
     /*font-size: 14px;*/

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/pagekit/app.css">
     <link rel="stylesheet" href="/css/pagekit/page.css">
     <link rel="stylesheet" href="/vendor/aos/aos.css" />
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" />
 
      @if(config('pagekit.branding'))
     <style>

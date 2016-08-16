@@ -1,4 +1,3 @@
-
 <form id="contact-form" action="/">
     {{ csrf_field() }}
     <p>
@@ -20,6 +19,5 @@
     <p>
         <button class="btn btn-success" type="submit">Submit</button>
     </p>
-
 </form>
 

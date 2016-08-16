@@ -3,7 +3,7 @@
 
     <div class="container">
         <div class="row" data-aos="zomm-in">
-            <h1 class="text-center headline"><i class="fa fa-envelope" aria-hidden="true"></i></h1>
+
             <section>
                 <h1 class="text-capitalize text-center">We would love to hear from you.</h1>
                 <p class="text-center lead">
@@ -21,12 +21,14 @@
             <section>
 
                 <div class="row">
-                   <h1 class="text-center headline"><i class="fa fa-envelope" aria-hidden="true"></i></h1>
+
                     <div class="col-md-6">
+
                         @include('page::shared.contact-form')
                     </div>
 
                     <div class="col-md-6">
+                        {{--<h1 class="text-center headline"><i class="fa fa-envelope" aria-hidden="true"></i></h1>--}}
                         @include('page::shared.location-map')
 
                     </div>
