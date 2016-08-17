@@ -18,20 +18,27 @@ header {
     header.landing {
         height: 75%;
         max-height: 640px; }
-    header.bg-1 {
-        background-image: url("/img/bg/01.jpg"); }
-    header.bg-2 {
-        background-image: url("/img/bg/02.jpg"); }
-    header.bg-3 {
-        background-image: url("/img/bg/03.jpg"); }
-    header.bg-4 {
-        background-image: url("/img/bg/04.jpg"); }
-    header.bg-5 {
-        background-image: url("/img/bg/05.jpg"); }
-    header.bg-6 {
-        background-image: url("/img/bg/06.jpg"); }
-    header.bg-7 {
-        background-image: url("/img/bg/07.jpg"); }
+
+.bg-1 {
+    background-image: url("/img/bg/01.jpg"); }
+
+.bg-2 {
+    background-image: url("/img/bg/02.jpg"); }
+
+.bg-3 {
+    background-image: url("/img/bg/03.jpg"); }
+
+.bg-4 {
+    background-image: url("/img/bg/04.jpg"); }
+
+.bg-5 {
+    background-image: url("/img/bg/05.jpg"); }
+
+.bg-6 {
+    background-image: url("/img/bg/06.jpg"); }
+
+.bg-7 {
+    background-image: url("/img/bg/07.jpg"); }
 
 header.landing h1, .headline {
     font-size: 72px; }
