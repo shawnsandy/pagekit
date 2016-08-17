@@ -9,26 +9,6 @@ var Grunticon = require('grunticon-lib');
 var _ = require('underscore');
 var imagemin = require('gulp-imagemin');
 
-gulp.task('icons:entypo', function () {
-    icons('svgs/entypo_385_icons/SVG/', 'entypo');
-});
-
-gulp.task('icons:material', function () {
-    icons('svgs/material_845_icons/SVG/', 'material');
-});
-
-gulp.task('icons:social', function () {
-    icons('svgs/pk-social/SVG/', 'social');
-});
-
-gulp.task('images', function(){
-    return gulp.src('images/**/*')
-        .pipe(imagemin())
-        .pipe(gulp.dest('src/img/'))
-});
-
-
-
 const icons = function (iconsDir, outputDir) {
     var deferred = q.defer(),
         iconDir = iconsDir;
@@ -47,3 +27,22 @@ const icons = function (iconsDir, outputDir) {
     return deferred.promise;
 
 };
+
+gulp.task('icons:entypo', function () {
+    icons('svgs/entypo_385_icons/SVG/', 'entypo');
+});
+
+gulp.task('icons:material', function () {
+    icons('svgs/material_845_icons/SVG/', 'material');
+});
+
+gulp.task('icons:social', function () {
+    icons('svgs/pk-social/SVG/', 'social');
+});
+
+gulp.task('images', function(){
+    return gulp.src('images/**/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('src/img/'))
+});
+
