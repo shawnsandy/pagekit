@@ -20,11 +20,11 @@
     transition: all 0.5s ease;
     overflow: hidden;
     position: absolute; }
-    .sidebar i.fa {
+    .sidebar .fa {
         font-size: 21px;
         padding: 0 10px 0 10px;
         display: block; }
-    .sidebar i.fa-times-circle {
+    .sidebar .fa-times-circle {
         display: none; }
     .sidebar a:hover, .sidebar a:focus {
         text-decoration: none; }
