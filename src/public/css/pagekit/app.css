@@ -5869,8 +5869,8 @@ footer {
 
 .layout-table {
     display: table;
-    width: 100% !important;
-    height: 100% !important; }
+    width: 100%;
+    height: 100%; }
 
 .layout-row {
     display: table-cell;
