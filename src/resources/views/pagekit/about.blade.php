@@ -21,14 +21,15 @@
             <h2>Our Team</h2>
             <hr>
             <div class="row">
-            <p class="text-justify">
-            <img src="http://placehold.it/140x140" class="img-circle col-md-2">
-            <img src="http://placehold.it/140x140" class="img-circle col-md-2">
-            <img src="http://placehold.it/140x140" class="img-circle col-md-2">
-            <img src="http://placehold.it/140x140" class="img-circle col-md-2">
-            <img src="http://placehold.it/140x140" class="img-circle col-md-2">
-            <img src="http://placehold.it/140x140" class="img-circle col-md-2">
-            </p>
+
+            <div class="team-images text-center">
+            <img src="http://placehold.it/140x140" class="img-circle">
+            <img src="http://placehold.it/140x140" class="img-circle">
+            <img src="http://placehold.it/140x140" class="img-circle">
+            <img src="http://placehold.it/140x140" class="img-circle">
+            <img src="http://placehold.it/140x140" class="img-circle">
+            <img src="http://placehold.it/140x140" class="img-circle">
+            </div>
             </div>
             <hr>
             <p>Aut culpa cum, debitis molestias neque voluptates!
