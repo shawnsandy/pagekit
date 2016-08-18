@@ -2,7 +2,7 @@
 
 ![PageKit Screenshot](pagekit.png)
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/2b15870b-8188-40ef-be16-96fea6a81bb9/mini.png)](https://insight.sensiolabs.com/projects/2b15870b-8188-40ef-be16-96fea6a81bb9)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/2b15870b-8188-40ef-be16-96fea6a81bb9/mini.png)](https://insight.sensiolabs.com/projects/2b15870b-8188-40ef-be16-96fea6a81bb9) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5decf43d0f574e7a833dacfda9ad676c)](https://www.codacy.com/app/shawnsandy04/pagekit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shawnsandy/pagekit&amp;utm_campaign=Badge_Grade)
 
 PageKit is a quick and easy way to replace the standard Laravel install page with a set of clean and modern Start page's for your application. Allowing you to deploy and launch a Laravel based marketing / promotional site in minutes. While you focus on the development. 
 

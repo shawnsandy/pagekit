@@ -16,7 +16,7 @@
         {{--<label for="subject">Message</label>--}}
         <textarea name="message" id="subject" cols="30" rows="8" class="form-control"></textarea>
     </p>
-    <p>
+    <p class="text-right">
         <button class="btn btn-success" type="submit">Submit</button>
     </p>
 </form>
