@@ -24,7 +24,7 @@ class PageKitServiceProvider extends ServiceProvider
         $this->publishes(
             [ __DIR__.'/resources/views/pagekit'=>resource_path('views/vendor/page'),
             __DIR__ . '/resources/assets'=>resource_path('assets/sass/pagekit')],
-            'views'
+            'pagekit-views'
         );
 
         $this->publishes(
@@ -32,12 +32,12 @@ class PageKitServiceProvider extends ServiceProvider
             __DIR__.'/public/img' => public_path('img'),
             __DIR__.'/public/vendor' => public_path('vendor')
 
-            ], 'public'
+            ], 'pagekit-assets'
         );
 
         $this->publishes(
             [ __DIR__ . '/config/pagekit.php' => config_path('pagekit.php')],
-            'config'
+            'pagekit-config'
         );
 
     }

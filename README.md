@@ -52,10 +52,10 @@ php artisan vendor:publish --tag=name
 ```
 
 **PageKit tags**
-
-* `-tag=public` publishes your pagekit public assets / files to `/public/` 
-* `-tag=views` publishes your views to `vendor\pagekit`
-* `-tag=config` publishes `config\pagekit` to `config`
+pagekit-
+* `-tag=pagekit-public` publishes your pagekit public assets / files to `/public/` 
+* `-tag=pagekit-views` publishes your views to `vendor\pagekit`
+* `-tag=pagekit-config` publishes `config\pagekit` to `config`
 
 ## Usage
 
