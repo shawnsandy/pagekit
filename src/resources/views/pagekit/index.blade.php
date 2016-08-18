@@ -2,7 +2,7 @@
 
 @section('page')
 
-@include('page::shared.header', ["class_name" => "landing"])
+@include('page::shared.header', ["class_name" => "landing bg-5"])
 
 
 @include('page::shared.nav')
@@ -25,7 +25,7 @@
 @endsection
 
 @push('styles')
-<link rel="stylesheet" href="/vendor/aos/aos.css" />
+
 <style type="text/css">
     .logo {
         display: none;
