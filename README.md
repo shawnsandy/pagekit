@@ -44,6 +44,14 @@ php artisan vendor:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider
 
 ```
 
+or shortcut
+
+```
+php artisan vendor:publish --tag=name
+
+```
+
+**PageKit tags**
 
 * `-tag=public` publishes your pagekit public assets / files to `/public/` 
 * `-tag=views` publishes your views to `vendor\pagekit`
