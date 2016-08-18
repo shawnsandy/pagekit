@@ -64,8 +64,8 @@ footer {
 .g-map {
     padding: 10px;
     box-sizing: border-box;
-    border-radius: 10px;
-    background-color: #eeeeee; }
+    border-radius: 0;
+    background-color: #EEEEEE; }
 
 .cover {
     height: 100%; }

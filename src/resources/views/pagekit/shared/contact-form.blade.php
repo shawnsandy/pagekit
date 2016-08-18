@@ -14,9 +14,10 @@
     </p>
     <p>
         {{--<label for="subject">Message</label>--}}
-        <textarea name="message" id="subject" cols="30" rows="8" class="form-control"></textarea>
+
+        <textarea name="message" id="subject" cols="30" rows="8" class="form-control" placeholder="Message"></textarea>
     </p>
     <p class="text-right">
-        <button class="btn btn-success" type="submit">Submit</button>
+        <button class="btn btn-success text-capitalize" type="submit">Send And Lets Talk</button>
     </p>
 </form>
