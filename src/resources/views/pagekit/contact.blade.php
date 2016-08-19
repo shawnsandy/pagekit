@@ -38,6 +38,7 @@
                     <p class="lead text-center">
                         VIA SOCIAL MEDIA
                     </p>
+                    @include('page::shared.social-network')
                 </div>
             </section>
 
