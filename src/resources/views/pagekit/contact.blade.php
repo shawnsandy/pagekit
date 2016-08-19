@@ -28,7 +28,7 @@
                         {{--<h2 class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i>Email</h2>--}}
 
                         @include('page::shared.contact-form')
-                    </div>¬
+                    </div>
             </div>
 
             </section>
