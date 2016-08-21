@@ -91,11 +91,12 @@ footer {
   height: 100%;
 }
 
-#contact-form {
+#contact-form, .borderless {
   label {
     font-size: 12px;
     font-weight: normal;
     color: $gray-lighter;
+    display: none;
   }
 
   input, textarea {
@@ -103,6 +104,12 @@ footer {
     border-bottom: dotted 1px $gray-light;
     box-shadow: none;
     margin-bottom: 20px;
+  }
+
+  input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: $gray-lighter;
+    background-image: none;
+    color: rgb(0, 0, 0);
   }
 
 }

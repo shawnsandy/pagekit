@@ -5819,6 +5819,10 @@ button.close {
     height: 100%;
     display: table; }
 
+.layout-row {
+    display: table-cell;
+    vertical-align: middle; }
+
 .footer {
     width: 100%;
     background-color: lightgrey; }

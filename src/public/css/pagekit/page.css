@@ -70,16 +70,22 @@ footer {
 .cover {
     height: 100%; }
 
-#contact-form label {
+#contact-form label, .borderless label {
     font-size: 12px;
     font-weight: normal;
-    color: #eeeeee; }
+    color: #eeeeee;
+    display: none; }
 
-#contact-form input, #contact-form textarea {
+#contact-form input, #contact-form textarea, .borderless input, .borderless textarea {
     border: none;
     border-bottom: dotted 1px #777777;
     box-shadow: none;
     margin-bottom: 20px; }
+
+#contact-form input:-webkit-autofill, #contact-form textarea:-webkit-autofill, #contact-form select:-webkit-autofill, .borderless input:-webkit-autofill, .borderless textarea:-webkit-autofill, .borderless select:-webkit-autofill {
+    background-color: #eeeeee;
+    background-image: none;
+    color: black; }
 
 .team-images {
     margin: 20px 0 20px 0; }
