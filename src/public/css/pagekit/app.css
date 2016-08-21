@@ -5813,16 +5813,3 @@ button.close {
 @media print {
     .hidden-print {
         display: none !important; } }
-
-.table-layout {
-    width: 100%;
-    height: 100%;
-    display: table; }
-
-.layout-row {
-    display: table-cell;
-    vertical-align: middle; }
-
-.footer {
-    width: 100%;
-    background-color: lightgrey; }

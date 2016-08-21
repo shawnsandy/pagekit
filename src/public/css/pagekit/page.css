@@ -9,15 +9,18 @@ body {
     display: table; }
 
 header {
-    height: 30%;
-    max-height: 300px;
-    min-height: 200px;
+    height: 300px;
     background-color: #eeeeee;
     background-position: center center;
-    background-size: cover; }
+    background-size: cover;
+    background-repeat: no-repeat; }
     header.landing {
         height: 75%;
         max-height: 640px; }
+
+.footer {
+    width: 100%;
+    background-color: lightgrey; }
 
 .bg-1 {
     background-image: url("/img/bg/01.jpg"); }
