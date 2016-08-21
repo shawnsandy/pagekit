@@ -98,16 +98,11 @@ footer {
     color: $gray-lighter;
   }
 
-  input {
+  input, textarea {
     border: none;
     border-bottom: dotted 1px $gray-light;
     box-shadow: none;
     margin-bottom: 20px;
-  }
-
-  textarea {
-    margin: 30px 0  20px 0;
-    border: dotted 1px $gray-light;
   }
 
 }

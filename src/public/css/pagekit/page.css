@@ -75,15 +75,11 @@ footer {
     font-weight: normal;
     color: #eeeeee; }
 
-#contact-form input {
+#contact-form input, #contact-form textarea {
     border: none;
     border-bottom: dotted 1px #777777;
     box-shadow: none;
     margin-bottom: 20px; }
-
-#contact-form textarea {
-    margin: 30px 0  20px 0;
-    border: dotted 1px #777777; }
 
 .team-images {
     margin: 20px 0 20px 0; }
