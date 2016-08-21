@@ -7,7 +7,7 @@
  *
  */
 
-Route::group( ['prefix' => 'page'], function () {
+Route::group( ['prefix' => 'page','middleware' => ['web'] ], function () {
 
     Route::get('', function(){
         return view('page::index');
@@ -24,7 +24,7 @@ Route::group( ['prefix' => 'page'], function () {
 
 });
 
-Route::group(['prefix' => 'dashboard'], function(){
+Route::group(['prefix' => 'dashboard', 'middleware' => 'web'], function(){
 
     Route::get('', function(){
         return view('page::admin.dashboard');
