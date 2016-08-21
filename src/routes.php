@@ -14,12 +14,10 @@ Route::group( ['prefix' => 'page','middleware' => ['web'] ], function () {
     });
 
     Route::get('{name}', function ($name) {
+        $token = null;
+//        if($name == 'login-reset')
+//            $token = hash_hmac('sha256', str_random(40), config('app.key'));
         return view('page::'.$name);
-    });
-
-    Route::group(['prefix' => 'admin'], function(){
-
-
     });
 
 });

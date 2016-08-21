@@ -61,6 +61,11 @@ header.landing h1, .headline {
 main, section, footer {
   padding-top: $base-padding;
   padding-bottom: $base-padding;
+
+}
+
+main {
+  min-height: 420px;
 }
 
 footer {

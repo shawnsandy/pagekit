@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h2>
-                    Login
+                    Login...
                 </h2>
                 @include('page::shared.login-form')
             </div>

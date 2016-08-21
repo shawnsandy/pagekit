@@ -47,6 +47,9 @@ main, section, footer {
     padding-top: 40px;
     padding-bottom: 40px; }
 
+main {
+    min-height: 420px; }
+
 footer {
     background-color: #333333;
     color: #777777; }
