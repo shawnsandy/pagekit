@@ -15,12 +15,12 @@
                             </a>
                         </li>
                         <li>
-                            <a href=""><i class="fa fa-home" aria-hidden="true"></i>
+                            <a href=""><i class="material-icons" aria-hidden="true">dashboard</i>
                                 <span class="nav-title">Dashboard</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-users" aria-hidden="true"></i><span
+                            <a href="#"><i class="fa material-icons" aria-hidden="true">group</i><span
                                         class="nav-title">Users</span></a>
                         </li>
                         <li>
@@ -45,6 +45,7 @@
 <link rel='stylesheet' href='/vendor/font-awesome/css/font-awesome.min.css'/>
 <link rel='stylesheet' href='/vendor/animate.css'/>
 <link rel='stylesheet' href='/css/pagekit/admin.css'/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <style>
 
 </style>

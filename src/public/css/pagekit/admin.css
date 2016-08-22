@@ -21,12 +21,15 @@
     overflow: hidden;
     position: absolute; }
     .sidebar .fa {
-        font-size: 21px;
+        font-size: 24px;
         padding: 0 10px 0 10px;
         display: block; }
     .sidebar .fa-times-circle {
         display: none; }
+    .sidebar a:link, .sidebar a:visited {
+        color: #777777; }
     .sidebar a:hover, .sidebar a:focus {
+        color: #555555;
         text-decoration: none; }
     .sidebar li {
         text-align: center;
@@ -70,8 +73,6 @@ li:first-child {
     height: 100%;
     background-color: #ffffff;
     box-sizing: border-box;
-    /*padding: 0 20px 0 20px;*/
-    /*position: relative;*/
     padding-left: 0; }
 
 .dashboard > .container-fluid {
