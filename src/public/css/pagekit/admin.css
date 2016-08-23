@@ -24,7 +24,7 @@
         font-size: 24px;
         padding: 0 10px 0 10px;
         display: block; }
-    .sidebar .fa-times-circle {
+    .sidebar .fa-times-circle, .sidebar .material_highlight_off {
         display: none; }
     .sidebar a:link, .sidebar a:visited {
         color: #777777; }
@@ -36,12 +36,14 @@
         padding: 20px 0 20px;
         border-bottom: 1px solid #f6f6f6;
         overflow: hidden;
-        height: 80px; }
+        height: 70px; }
 
 .sidebar-closed .sidebar {
     width: 80px; }
     .sidebar-closed .sidebar a {
         padding: 10px 0 10px 0; }
+    .sidebar-closed .sidebar li {
+        height: 60px; }
 
 .sidebar ul:first-child {
     text-align: left; }
@@ -53,16 +55,16 @@ li:first-child {
     height: 60px; }
 
 .nav-title {
-    /*font-size: 14px;*/
+    font-size: 12px;
     display: block;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease; }
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease; }
 
 .sidebar-closed .nav-title {
-    /* display: none; */
-    font-size: 10px; }
+    display: none;
+    font-size: 9px; }
 
 .sidebar:hover {
     /*width: 260px;*/ }

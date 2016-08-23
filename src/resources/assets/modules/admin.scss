@@ -36,7 +36,7 @@
     display: block;
   }
 
- .fa-times-circle {
+ .fa-times-circle, .material_highlight_off {
     display: none;
   }
 
@@ -54,7 +54,7 @@
     padding: 20px 0 20px;
     border-bottom: 1px solid #f6f6f6;
     overflow: hidden;
-    height: 80px;
+    height: 70px;
   }
 
 }
@@ -63,6 +63,10 @@
   width: 80px;
   & a {
     padding: 10px 0 10px 0;
+  }
+
+  li {
+    height: 60px;
   }
 }
 
@@ -79,17 +83,17 @@ li:first-child {
 }
 
 .nav-title {
-  /*font-size: 14px;*/
+  font-size: 12px;
   display: block;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 .sidebar-closed .nav-title {
-  /* display: none; */
-  font-size: 10px;
+  display: none;
+  font-size: 9px;
 }
 
 .sidebar:hover {
