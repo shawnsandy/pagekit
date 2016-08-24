@@ -12,7 +12,7 @@
     overflow: hidden;
     float: left;
     border-right: #f2f2f2 1px solid;
-    background-color: #FFF;
+    background-color: #333333;
     word-wrap: normal;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -21,24 +21,29 @@
     overflow: hidden;
     position: absolute; }
     .sidebar .fa {
-        font-size: 21px;
+        font-size: 24px;
         padding: 0 10px 0 10px;
         display: block; }
-    .sidebar .fa-times-circle {
+    .sidebar .fa-times-circle, .sidebar .nav-toggle {
         display: none; }
+    .sidebar a:link, .sidebar a:visited {
+        color: #777777; }
     .sidebar a:hover, .sidebar a:focus {
+        color: #eeeeee;
         text-decoration: none; }
     .sidebar li {
         text-align: center;
         padding: 20px 0 20px;
-        border-bottom: 1px solid #f6f6f6;
+        border-bottom: 1px dotted #222222;
         overflow: hidden;
-        height: 80px; }
+        height: 70px; }
 
 .sidebar-closed .sidebar {
     width: 80px; }
     .sidebar-closed .sidebar a {
         padding: 10px 0 10px 0; }
+    .sidebar-closed .sidebar li {
+        height: 60px; }
 
 .sidebar ul:first-child {
     text-align: left; }
@@ -50,16 +55,18 @@ li:first-child {
     height: 60px; }
 
 .nav-title {
-    /*font-size: 14px;*/
+    font-size: 12px;
     display: block;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease; }
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    color: #777777; }
 
 .sidebar-closed .nav-title {
-    /* display: none; */
-    font-size: 10px; }
+    display: none;
+    font-size: 9px;
+    color: #555555; }
 
 .sidebar:hover {
     /*width: 260px;*/ }
@@ -70,8 +77,6 @@ li:first-child {
     height: 100%;
     background-color: #ffffff;
     box-sizing: border-box;
-    /*padding: 0 20px 0 20px;*/
-    /*position: relative;*/
     padding-left: 0; }
 
 .dashboard > .container-fluid {
@@ -87,3 +92,11 @@ li:first-child {
 .footer {
     width: 100%;
     background-color: lightgrey; }
+
+.shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 3px 3px 5px 6px #ccc;
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }

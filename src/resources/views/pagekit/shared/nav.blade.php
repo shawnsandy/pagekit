@@ -33,8 +33,8 @@
                 <!-- Authentication Links -->
                 @if (Auth::guest())
 
-                    <li><a href="{{ url('/login') }}">Login</a></li>
-                    <li><a href="{{ url('/register') }}">Register</a></li>
+                    <li><a href="{{ url('page/login') }}">Login or Register</a></li>
+
 
                 @else
 

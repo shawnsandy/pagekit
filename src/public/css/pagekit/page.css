@@ -6,18 +6,22 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    display: table; }
+    display: table;
+    color: #555555; }
 
 header {
-    height: 30%;
-    max-height: 300px;
-    min-height: 200px;
+    height: 300px;
     background-color: #eeeeee;
     background-position: center center;
-    background-size: cover; }
+    background-size: cover;
+    background-repeat: no-repeat; }
     header.landing {
         height: 75%;
         max-height: 640px; }
+
+.footer {
+    width: 100%;
+    background-color: lightgrey; }
 
 .bg-1 {
     background-image: url("/img/bg/01.jpg"); }
@@ -47,6 +51,9 @@ main, section, footer {
     padding-top: 40px;
     padding-bottom: 40px; }
 
+main {
+    min-height: 420px; }
+
 footer {
     background-color: #333333;
     color: #777777; }
@@ -70,20 +77,22 @@ footer {
 .cover {
     height: 100%; }
 
-#contact-form label {
+#contact-form label, .borderless label {
     font-size: 12px;
     font-weight: normal;
-    color: #eeeeee; }
+    color: #eeeeee;
+    display: none; }
 
-#contact-form input {
+#contact-form input, #contact-form textarea, .borderless input, .borderless textarea {
     border: none;
     border-bottom: dotted 1px #777777;
     box-shadow: none;
     margin-bottom: 20px; }
 
-#contact-form textarea {
-    margin: 30px 0  20px 0;
-    border: dotted 1px #777777; }
+#contact-form input:-webkit-autofill, #contact-form textarea:-webkit-autofill, #contact-form select:-webkit-autofill, .borderless input:-webkit-autofill, .borderless textarea:-webkit-autofill, .borderless select:-webkit-autofill {
+    background-color: #eeeeee;
+    background-image: none;
+    color: black; }
 
 .team-images {
     margin: 20px 0 20px 0; }

@@ -7,24 +7,24 @@
  *
  */
 
-Route::group( ['prefix' => 'page'], function () {
+Route::group( ['prefix' => 'page','middleware' => ['web'] ], function () {
 
     Route::get('', function(){
         return view('page::index');
     });
 
     Route::get('{name}', function ($name) {
-        return view('page::'.$name);
-    });
 
-    Route::group(['prefix' => 'admin'], function(){
+        $token = null;
+        if($name == 'login-reset')
+            $token = hash_hmac('sha256', str_random(40), config('app.key'));
 
-
+        return view('page::'.$name, compact('token'));
     });
 
 });
 
-Route::group(['prefix' => 'dashboard'], function(){
+Route::group(['prefix' => 'dashboard', 'middleware' => 'web'], function(){
 
     Route::get('', function(){
         return view('page::admin.dashboard');
