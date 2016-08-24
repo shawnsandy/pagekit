@@ -20,7 +20,7 @@
   overflow: hidden;
   float: left;
   border-right: #f2f2f2 1px solid;
-  background-color: #FFF;
+  background-color: $gray-dark;
   word-wrap: normal;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -36,7 +36,7 @@
     display: block;
   }
 
- .fa-times-circle, .material_highlight_off {
+ .fa-times-circle, .nav-toggle {
     display: none;
   }
 
@@ -45,14 +45,14 @@
   }
 
   a:hover, a:focus {
-    color: $gray;
+    color: $gray-lighter;
     text-decoration: none;
   }
 
   li {
     text-align: center;
     padding: 20px 0 20px;
-    border-bottom: 1px solid #f6f6f6;
+    border-bottom: 1px dotted $gray-darker;
     overflow: hidden;
     height: 70px;
   }

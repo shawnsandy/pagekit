@@ -9,8 +9,8 @@
                         <li>
                             <a href="#">
                                 <span id="sidebar-toggle" class="">
-                                <i class="fa material_all_out sidebar-toogle" aria-hidden="true"></i>
-                                <i class="fa material_highlight_off sidebar-toogle" aria-hidden="true"></i>
+                                <i class="fa material_fullscreen sidebar-toogle" aria-hidden="true"></i>
+                                <i class="fa material_fullscreen_exit sidebar-toogle nav-toggle" aria-hidden="true"></i>
                                 </span>
                             </a>
                         </li>

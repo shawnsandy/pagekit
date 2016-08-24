@@ -12,7 +12,7 @@
     overflow: hidden;
     float: left;
     border-right: #f2f2f2 1px solid;
-    background-color: #FFF;
+    background-color: #333333;
     word-wrap: normal;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -24,17 +24,17 @@
         font-size: 24px;
         padding: 0 10px 0 10px;
         display: block; }
-    .sidebar .fa-times-circle, .sidebar .material_highlight_off {
+    .sidebar .fa-times-circle, .sidebar .nav-toggle {
         display: none; }
     .sidebar a:link, .sidebar a:visited {
         color: #777777; }
     .sidebar a:hover, .sidebar a:focus {
-        color: #555555;
+        color: #eeeeee;
         text-decoration: none; }
     .sidebar li {
         text-align: center;
         padding: 20px 0 20px;
-        border-bottom: 1px solid #f6f6f6;
+        border-bottom: 1px dotted #222222;
         overflow: hidden;
         height: 70px; }
 
