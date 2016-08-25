@@ -1,8 +1,3 @@
-.table-layout {
-    width: 100%;
-    height: 100%;
-    display: table; }
-
 .sidebar {
     padding: 0;
     display: table;
@@ -20,14 +15,14 @@
     transition: all 0.5s ease;
     overflow: hidden;
     position: absolute; }
-    .sidebar .fa {
+    .sidebar .fa, .sidebar .material {
         font-size: 24px;
         padding: 0 10px 0 10px;
         display: block; }
     .sidebar .fa-times-circle, .sidebar .nav-toggle {
         display: none; }
     .sidebar a:link, .sidebar a:visited {
-        color: #777777; }
+        color: #B5B5B5; }
     .sidebar a:hover, .sidebar a:focus {
         color: #eeeeee;
         text-decoration: none; }
@@ -77,17 +72,24 @@ li:first-child {
     height: 100%;
     background-color: #ffffff;
     box-sizing: border-box;
-    padding-left: 0; }
+    padding-left: 0;
+    margin-left: 200px;
+    -webkit-transition: all 0.98s ease;
+    -moz-transition: all 0.98s ease;
+    -o-transition: all 0.98s ease;
+    transition: all 0.98s ease;
+    padding: 0 20px; }
 
 .dashboard > .container-fluid {
-    margin-left: 210px;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease; }
+    margin-left: 0px;
+    -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+    padding: 0 20px; }
 
-.sidebar-closed .dashboard > .container-fluid {
-    margin-left: 110px; }
+.sidebar-closed .dashboard {
+    margin-left: 80px; }
 
 .footer {
     width: 100%;
@@ -100,3 +102,6 @@ li:first-child {
     /* Firefox 3.5 - 3.6 */
     box-shadow: 3px 3px 5px 6px #ccc;
     /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+
+.small-caps {
+    font-variant: small-caps; }

@@ -68,6 +68,9 @@ footer {
     text-align: center;
     vertical-align: middle; }
 
+.layout-left {
+    text-align: left; }
+
 .g-map {
     padding: 10px;
     box-sizing: border-box;

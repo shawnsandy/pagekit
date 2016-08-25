@@ -9,22 +9,27 @@
                         <li>
                             <a href="#">
                                 <span id="sidebar-toggle" class="">
-                                <i class="fa material_fullscreen sidebar-toogle" aria-hidden="true"></i>
-                                <i class="fa material_fullscreen_exit sidebar-toogle nav-toggle" aria-hidden="true"></i>
+                                <i class="fa material material_fullscreen sidebar-toogle" aria-hidden="true"></i>
+                                <i class="fa material material_fullscreen_exit sidebar-toogle nav-toggle" aria-hidden="true"></i>
                                 </span>
                             </a>
                         </li>
                         <li>
-                            <a href=""><i class="fa material_view_quilt" aria-hidden="true"></i>
+                            <a href=""><i class="fa material material_dashboard" aria-hidden="true"></i>
                                 <span class="nav-title">Dashboard</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa material_people" aria-hidden="true"></i><span
+                            <a href=""><i class="fa material material_assignment" aria-hidden="true"></i>
+                                <span class="nav-title">Content</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa material material_people" aria-hidden="true"></i><span
                                         class="nav-title">Users</span></a>
                         </li>
                         <li>
-                            <a href=""><i class="fa material_settings" aria-hidden="true"></i><span
+                            <a href=""><i class="fa material material_settings" aria-hidden="true"></i><span
                                         class="nav-title">Settings</span>
                             </a>
                         </li>
@@ -42,7 +47,6 @@
 @push('styles')
 
 {{--<link rel='stylesheet' href='/vendor/typicons/typicons.min.css' />--}}
-<link rel='stylesheet' href='/vendor/font-awesome/css/font-awesome.min.css'/>
 <link rel='stylesheet' href='/vendor/animate.css'/>
 <link rel='stylesheet' href='/css/pagekit/admin.css'/>
 <link href="/css/pagekit/fonts/material-icons/style.css" rel="stylesheet">

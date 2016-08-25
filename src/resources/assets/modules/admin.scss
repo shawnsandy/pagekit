@@ -5,12 +5,6 @@
 
 }
 
-.table-layout {
-  width: 100%;
-  height: 100%;
-  display: table;
-}
-
 .sidebar {
   padding: 0;
   display: table;
@@ -30,7 +24,7 @@
   position: absolute;
 
 
- .fa {
+ .fa, .material {
     font-size: 24px;
     padding: 0 10px 0 10px;
     display: block;
@@ -41,7 +35,7 @@
   }
 
   a:link, a:visited {
-    color: $gray-light ;
+    color: $magnesium ;
   }
 
   a:hover, a:focus {
@@ -109,18 +103,25 @@ li:first-child {
   background-color: #ffffff;
   box-sizing: border-box;
   padding-left: 0;
+  margin-left: 200px;
+  -webkit-transition: all 0.98s ease;
+  -moz-transition: all 0.98s ease;
+  -o-transition: all 0.98s ease;
+  transition: all 0.98s ease;
+  padding: 0 20px;
 }
 
 .dashboard > .container-fluid {
-  margin-left: 210px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  margin-left: 0px;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+  padding: 0 20px;
 }
 
-.sidebar-closed .dashboard > .container-fluid {
-  margin-left: 110px;
+.sidebar-closed .dashboard  {
+  margin-left: 80px;
 }
 
 .footer {
@@ -132,4 +133,8 @@ li:first-child {
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.small-caps {
+  font-variant: small-caps;
 }
