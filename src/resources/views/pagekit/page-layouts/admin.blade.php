@@ -4,7 +4,7 @@
     <div id="wrapper" class="table-layout easein sidebar-closed">
         <div class="sidebar ">
             <div class="">
-                <nav>
+                <nav class="top-nav">
                     <ul class="list-unstyled">
                         <li>
                             <a href="#">

@@ -14,11 +14,13 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     overflow: hidden;
-    position: absolute; }
+    position: absolute;
+    z-index: 99; }
     .sidebar .fa, .sidebar .material {
         font-size: 24px;
         padding: 0 10px 0 10px;
-        display: block; }
+        display: block;
+        text-shadow: #000 1px 1px 3px; }
     .sidebar .fa-times-circle, .sidebar .nav-toggle {
         display: none; }
     .sidebar a:link, .sidebar a:visited {
@@ -68,28 +70,34 @@ li:first-child {
 
 .dashboard {
     /*/float: right;*/
-    width: 100%;
     height: 100%;
     background-color: #ffffff;
     box-sizing: border-box;
     padding-left: 0;
     margin-left: 200px;
-    -webkit-transition: all 0.98s ease;
-    -moz-transition: all 0.98s ease;
-    -o-transition: all 0.98s ease;
-    transition: all 0.98s ease;
-    padding: 0 20px; }
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    padding: 0 0; }
+    .dashboard > div {
+        padding: 0 40px 0; }
 
 .dashboard > .container-fluid {
     margin-left: 0px;
-    -webkit-transition: all 0.9s ease;
-    -moz-transition: all 0.9s ease;
-    -o-transition: all 0.9s ease;
-    transition: all 0.9s ease;
-    padding: 0 20px; }
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
 
 .sidebar-closed .dashboard {
     margin-left: 80px; }
+
+.dashboard-nav {
+    height: 60px;
+    box-sizing: border-box; }
+    .dashboard-nav .material {
+        font-size: 28px; }
 
 .footer {
     width: 100%;
