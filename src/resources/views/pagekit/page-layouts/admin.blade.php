@@ -43,27 +43,30 @@
 
             </div>
             <div class="table-cell main-dashboard">
-                <div class="container-fluid">
-                    <div class="row nav-bar">
-                        <nav class="dashboard-nav">
+                <div class="dash table">
+                    <div class="container-fluid">
+                        <div class="row nav-bar">
+                            <nav class="dashboard-nav">
 
-                            <div class="layout-table text-left">
-                                <div class="layout-row layout-left">
-                                    <div class="col-md-1">
-                                        <span class="material material_explore"></span>
-                                    </div>
-                                    <div class="col-md-11">
-                                        nav
+                                <div class="layout-table text-left">
+                                    <div class="layout-row layout-left">
+                                        <div class="col-md-1">
+                                            <span class="material material_explore"></span>
+                                        </div>
+                                        <div class="col-md-11">
+                                            nav
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
 
-                        </nav>
+                            </nav>
+                        </div>
+                        <div class="main-content">
+                            @yield('content')
+                        </div>
                     </div>
-                    <div class="main-content">
-                        @yield('content')
-                    </div>
+
                 </div>
             </div>
             <div class="table-cell sidebar-right">
