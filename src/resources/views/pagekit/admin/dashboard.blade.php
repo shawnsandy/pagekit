@@ -1,46 +1,35 @@
 @extends('page::page-layouts.admin')
 @section('content')
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-10">
-                <div class="row">
-                    <div class="table-layout">
-                        <nav class="dashboard-nav">
-                            <div class="layout-table text-left">
-                                <div class="layout-row layout-left">
-                                    <span class="material material_explore"></span>
-                                </div>
-                            </div>
-                        </nav>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, nisi, officia.
-                            Accusantium adipisci aliquam aspernatur aut beatae, commodi culpa deleniti dignissimos
-                            dolores doloribus eligendi illo illum ipsum iste itaque magnam nam odio perferendis
-                            perspiciatis praesentium quia quidem quod repellat suscipit ut velit vero. Officia, quia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 sidebar-secondary">
-                <nav class="dashboard-nav">
-                    <div class="layout-table text-left">
-                        <div class="layout-row layout-left">
-                            <span class="material material_more_horiz"></span>
-                        </div>
-                    </div>
-                </nav>
+<div>
+    <h3>
+        Dashboard
+    </h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci assumenda, at consequatur
+        corporis dicta ea eaque facere fuga inventore maiores modi nulla, obcaecati officia quia
+        repellendus
+        repudiandae similique. Accusamus aliquam aspernatur at consequuntur dolor dolore esse fugit iste
+        laudantium, minima molestias, nihil quam quidem quos repudiandae, saepe tempora vero?</p>
+    <p>Architecto consequuntur earum repudiandae sit tenetur? Aperiam architecto atque, dicta
+        dignissimos,
+        dolores eaque eius facilis magni minima mollitia natus non nostrum placeat quaerat recusandae
+        repellat sint tempora vero voluptate voluptates! Dicta laborum officia quisquam suscipit unde.
+        Ab ad
+        aperiam aut commodi consequuntur doloremque ducimus laudantium, necessitatibus nostrum optio
+        quia
+        quibusdam?</p>
+    <p>Amet assumenda commodi deleniti, deserunt est et ex expedita id ipsam nisi numquam perferendis
+        placeat qui quis quos rem repudiandae veritatis vero voluptas, voluptatem. Cumque deserunt
+        dolorem
+        eaque magnam minima. Accusantium, aut culpa, cum delectus dolor ea error harum ipsa magni
+        molestiae
+        nam nisi repellendus soluta ullam vitae! Consectetur, voluptatum?</p>
+</div>
+@endsection
+@push('styles')
+<style>
 
-            </div>
+</style>
+@endpush
+@push('scripts')
 
-
-        </div>
-        </div>
-        @endsection
-        @push('styles')
-        <style>
-
-        </style>
-    @endpush
-    @push('scripts')
-
-    @endpush
+@endpush

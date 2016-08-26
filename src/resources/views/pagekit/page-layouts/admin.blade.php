@@ -1,47 +1,94 @@
 @extends('page::page-layouts.default')
 
 @section('page')
-    <div id="wrapper" class="table-layout easein sidebar-closed">
-        <div class="sidebar ">
-            <div class="">
-                <nav class="top-nav">
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#">
+    <div id="wrapper" class="table sidebar-closed">
+        <div class="table-row">
+            <div class="table-cell">
+                <div class="sidebar ">
+                    <div class="">
+                        <nav class="top-nav">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">
                                 <span id="sidebar-toggle" class="">
                                 <i class="fa material material_fullscreen sidebar-toogle" aria-hidden="true"></i>
-                                <i class="fa material material_fullscreen_exit sidebar-toogle nav-toggle" aria-hidden="true"></i>
+                                <i class="fa material material_fullscreen_exit sidebar-toogle nav-toggle"
+                                   aria-hidden="true"></i>
                                 </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa material material_dashboard" aria-hidden="true"></i>
-                                <span class="nav-title">Dashboard</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa material material_assignment" aria-hidden="true"></i>
-                                <span class="nav-title">Content</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa material material_people" aria-hidden="true"></i><span
-                                        class="nav-title">Users</span></a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa material material_settings" aria-hidden="true"></i><span
-                                        class="nav-title">Settings</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa material material_dashboard" aria-hidden="true"></i>
+                                        <span class="nav-title">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa material material_assignment" aria-hidden="true"></i>
+                                        <span class="nav-title">Content</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa material material_people" aria-hidden="true"></i><span
+                                                class="nav-title">Users</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa material material_settings" aria-hidden="true"></i><span
+                                                class="nav-title">Settings</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+            <div class="table-cell main-dashboard">
+                <div class="container-fluid">
+                    <div class="row nav-bar">
+                        <nav class="dashboard-nav">
+
+                            <div class="layout-table text-left">
+                                <div class="layout-row layout-left">
+                                    <div class="col-md-1">
+                                        <span class="material material_explore"></span>
+                                    </div>
+                                    <div class="col-md-11">
+                                        nav
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </nav>
+                    </div>
+                    <div class="main-content">
+                        @yield('content')
+                    </div>
+                </div>
+                sssssss
+            </div>
+            <div class="table-cell sidebar-right">
+                <div class="container-fluid">
+                    <nav class="dashboard-nav">
+                        <div class="layout-table text-left">
+                            <div class="layout-row layout-left">
+                                <span class="material material_more_horiz"></span>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem consequatur
+                            corporis dolorem doloribus error esse explicabo iure minus nam, non obcaecati odit
+                            perferendis quibusdam quisquam reprehenderit sapiente sit, vel voluptatibus, voluptatum?
+                            Aliquam architecto ducimus, est facere fugit harum iure, maiores optio reiciendis
+                            repudiandae veniam.</p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
-        <div class="dashboard">
-            @yield('content')
-        </div>
     </div>
-
 @endsection
 
 @push('styles')

@@ -8,7 +8,6 @@
     max-width: 350px;
     width: 200px;
     overflow: hidden;
-    float: left;
     border-right: #f2f2f2 1px solid;
     background-color: #333333;
     word-wrap: normal;
@@ -17,7 +16,6 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     overflow: hidden;
-    position: absolute;
     z-index: 99; }
     .sidebar .fa, .sidebar .material {
         font-size: 24px;
@@ -116,3 +114,30 @@ li:first-child {
 
 .small-caps {
     font-variant: small-caps; }
+
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+.table-row {
+    display: table-row;
+    height: inherit; }
+
+.table-cell {
+    display: table-cell;
+    vertical-align: top; }
+
+.sidebar {
+    min-width: 80px; }
+
+.main-dashboard {
+    min-width: 100%; }
+
+.sidebar-right {
+    min-width: 300px;
+    max-width: 300px;
+    background-color: #eeeeee;
+    padding: 10px; }
