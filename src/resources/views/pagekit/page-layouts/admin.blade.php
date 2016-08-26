@@ -49,18 +49,23 @@
 
                                 <div class="layout-table text-left">
                                     <div class="layout-row layout-left">
-                                        <div class="col-md-1">
+                                        <div class="col-md-2">
                                             <span class="material material_explore"></span>
                                         </div>
-                                        <div class="col-md-11">
-                                            Nav
-
+                                        <div class="col-md-8">
+                                        <p class="text-center">
+                                            Dashboard
+                                        </p>
                                         </div>
+                                        <div class="col-md-2">
+                                            <span class="material material_people"></span>
+                                        </div>
+
                                     </div>
                                 </div>
 
-
                             </nav>
+
                         </div>
                         <div class="main-content">
                             @yield('content')
@@ -68,6 +73,7 @@
                     </div>
                 </div>
             </div>
+            @section('sidebar-right')
             <div class="table-cell sidebar-right">
                 <div class="container-fluid">
                     <nav class="dashboard-nav">
@@ -85,9 +91,8 @@
                             repudiandae veniam.</p>
                     </div>
                 </div>
-
-
             </div>
+            @show
         </div>
     </div>
 @endsection
