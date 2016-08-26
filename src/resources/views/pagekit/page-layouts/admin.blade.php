@@ -40,7 +40,6 @@
                         </nav>
                     </div>
                 </div>
-
             </div>
             <div class="table-cell main-dashboard">
                 <div class="dash table">
@@ -54,7 +53,8 @@
                                             <span class="material material_explore"></span>
                                         </div>
                                         <div class="col-md-11">
-                                            nav
+                                            Nav
+
                                         </div>
                                     </div>
                                 </div>
@@ -66,7 +66,6 @@
                             @yield('content')
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="table-cell sidebar-right">
