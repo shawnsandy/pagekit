@@ -139,5 +139,6 @@ li:first-child {
 .sidebar-right {
     min-width: 300px;
     max-width: 300px;
-    background-color: #eeeeee;
-    padding: 10px; }
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #eeeeee; }

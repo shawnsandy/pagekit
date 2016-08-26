@@ -65,14 +65,13 @@
                         @yield('content')
                     </div>
                 </div>
-                sssssss
             </div>
             <div class="table-cell sidebar-right">
                 <div class="container-fluid">
                     <nav class="dashboard-nav">
                         <div class="layout-table text-left">
                             <div class="layout-row layout-left">
-                                <span class="material material_more_horiz"></span>
+                                <span class="material material_view_stream"></span>
                             </div>
                         </div>
                     </nav>
