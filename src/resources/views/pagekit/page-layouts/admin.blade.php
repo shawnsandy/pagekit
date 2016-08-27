@@ -36,6 +36,11 @@
                                                 class="nav-title">Settings</span>
                                     </a>
                                 </li>
+                                <li>
+                                    <a href=""><i class="fa material material_arrow_upward" aria-hidden="true"></i><span
+                                                class="nav-title">Top</span>
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -53,7 +58,7 @@
                         </div>
                     </div>
                 </nav>
-                <div class="dash table">
+                <div class="dash">
                     <div class="container-fluid">
                         <div class="main-content">
                             @yield('content')

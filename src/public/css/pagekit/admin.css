@@ -34,6 +34,13 @@
         border-bottom: 1px dotted #222222;
         overflow: hidden;
         height: 70px; }
+    .sidebar .top-nav {
+        position: fixed;
+        width: 200px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
 
 .sidebar-closed .sidebar {
     width: 80px; }
@@ -41,6 +48,8 @@
         padding: 10px 0 10px 0; }
     .sidebar-closed .sidebar li {
         height: 60px; }
+    .sidebar-closed .sidebar .top-nav {
+        width: 80px; }
 
 .sidebar ul:first-child {
     text-align: left; }
@@ -129,11 +138,6 @@ li:first-child {
     display: table-cell;
     vertical-align: top; }
 
-nav {
-    border-bottom: solid 1px #eeeeee; }
-    nav .material {
-        font-size: 28px; }
-
 .menu-table {
     display: table;
     height: inherit;
@@ -153,7 +157,10 @@ nav {
 .main-dashboard {
     min-width: 100%; }
     .main-dashboard nav {
-        height: 50px; }
+        height: 60px;
+        border-bottom: solid 1px #eeeeee; }
+        .main-dashboard nav .material {
+            font-size: 28px; }
 
 .sidebar-right {
     min-width: 300px;
