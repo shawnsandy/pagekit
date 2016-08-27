@@ -42,31 +42,19 @@
                 </div>
             </div>
             <div class="table-cell main-dashboard">
+                <nav class="">
+                    <div class="menu-table">
+                        <div class="menu-table-row">
+                            <div class="logo menu-table-cell">
+                                <div class="container-fluid">
+                                     <i class="material material_explore"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
                 <div class="dash table">
                     <div class="container-fluid">
-                        <div class="row nav-bar">
-                            <nav class="dashboard-nav">
-
-                                <div class="layout-table text-left">
-                                    <div class="layout-row layout-left">
-                                        <div class="col-md-2">
-                                            <span class="material material_explore"></span>
-                                        </div>
-                                        <div class="col-md-8">
-                                        <p class="text-center">
-                                            Dashboard
-                                        </p>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <span class="material material_people"></span>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </nav>
-
-                        </div>
                         <div class="main-content">
                             @yield('content')
                         </div>
@@ -74,24 +62,24 @@
                 </div>
             </div>
             @section('sidebar-right')
-            <div class="table-cell sidebar-right">
-                <div class="container-fluid">
-                    <nav class="dashboard-nav">
-                        <div class="layout-table text-left">
-                            <div class="layout-row layout-left">
-                                <span class="material material_view_stream"></span>
+                <div class="table-cell sidebar-right">
+                    <div class="container-fluid">
+                        <nav class="dashboard-nav">
+                            <div class="layout-table text-left">
+                                <div class="layout-row layout-left">
+                                    <span class="material material_view_stream"></span>
+                                </div>
                             </div>
+                        </nav>
+                        <div class="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem consequatur
+                                corporis dolorem doloribus error esse explicabo iure minus nam, non obcaecati odit
+                                perferendis quibusdam quisquam reprehenderit sapiente sit, vel voluptatibus, voluptatum?
+                                Aliquam architecto ducimus, est facere fugit harum iure, maiores optio reiciendis
+                                repudiandae veniam.</p>
                         </div>
-                    </nav>
-                    <div class="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem consequatur
-                            corporis dolorem doloribus error esse explicabo iure minus nam, non obcaecati odit
-                            perferendis quibusdam quisquam reprehenderit sapiente sit, vel voluptatibus, voluptatum?
-                            Aliquam architecto ducimus, est facere fugit harum iure, maiores optio reiciendis
-                            repudiandae veniam.</p>
                     </div>
                 </div>
-            </div>
             @show
         </div>
     </div>
