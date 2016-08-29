@@ -24,7 +24,7 @@
                                 </li>
                                 <li>
                                     <a href=""><i class="fa material material_assignment" aria-hidden="true"></i>
-                                        <span class="nav-title">Content</span>
+                                        <span class="nav-title">Post</span>
                                     </a>
                                 </li>
                                 <li>
@@ -52,7 +52,7 @@
                         <div class="menu-table-row">
                             <div class="logo menu-table-cell">
                                 <div class="container-fluid">
-                                     <i class="material material_explore"></i>
+                                    <i class="material material_explore"></i>
                                 </div>
                             </div>
                         </div>
@@ -68,14 +68,17 @@
             </div>
             @section('sidebar-right')
                 <div class="table-cell sidebar-right">
-                    <div class="container-fluid">
-                        <nav class="dashboard-nav">
-                            <div class="layout-table text-left">
-                                <div class="layout-row layout-left">
+                    <nav>
+                        <div class="menu-table">
+                            <div class="menu-table-row">
+                                <div class="logo menu-table-cell">
                                     <span class="material material_view_stream"></span>
                                 </div>
                             </div>
-                        </nav>
+                        </div>
+                    </nav>
+                    <div class="container-fluid">
+
                         <div class="">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem consequatur
                                 corporis dolorem doloribus error esse explicabo iure minus nam, non obcaecati odit
@@ -96,6 +99,7 @@
 <link rel='stylesheet' href='/vendor/animate.css'/>
 <link rel='stylesheet' href='/css/pagekit/admin.css'/>
 <link href="/css/pagekit/fonts/material-icons/style.css" rel="stylesheet">
+<link href="/css/pagekit/fonts/social/style.css" rel="stylesheet">
 <style>
 
 </style>

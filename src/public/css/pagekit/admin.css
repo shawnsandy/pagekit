@@ -168,3 +168,35 @@ li:first-child {
     background-color: #f9f9f9;
     padding: 10px;
     border: 1px solid #eeeeee; }
+
+.widget .box {
+    height: 150px;
+    overflow: auto;
+    border: 1px solid #eeeeee;
+    border-bottom-width: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 3px; }
+
+.box .box-header, .box h3 {
+    font-family: 14px; }
+
+.box .social {
+    font-size: 36px; }
+
+.widget *[class^="col-md-"] {
+    padding: 0 8px 0 8px; }
+
+.tbl {
+    display: table;
+    height: inherit;
+    width: 100%; }
+    .tbl-row {
+        display: table-row; }
+    .tbl-cell {
+        display: table-cell;
+        vertical-align: middle; }
+    .tbl-top {
+        vertical-align: top; }
+    .tbl-bottom {
+        vertical-align: bottom; }
