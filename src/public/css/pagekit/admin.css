@@ -1,12 +1,13 @@
 #wrapper {
-    height: 100%; }
+    height: 100%;
+    font-size: 15px; }
 
 .sidebar {
     padding: 0;
     display: table;
     height: 100%;
     max-width: 350px;
-    width: 200px;
+    width: 150px;
     overflow: hidden;
     background-color: #333333;
     word-wrap: normal;
@@ -31,12 +32,11 @@
     .sidebar li {
         text-align: center;
         padding: 20px 0 20px;
-        border-bottom: 1px dotted #222222;
         overflow: hidden;
         height: 70px; }
     .sidebar .top-nav {
         position: fixed;
-        width: 200px;
+        width: 150px;
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
         -o-transition: all 0.5s ease;
@@ -61,7 +61,7 @@ li:first-child {
     height: 60px; }
 
 .nav-title {
-    font-size: 12px;
+    font-size: 14px;
     display: block;
     -webkit-transition: all 0.1s ease;
     -moz-transition: all 0.1s ease;
@@ -83,7 +83,7 @@ li:first-child {
     background-color: #ffffff;
     box-sizing: border-box;
     padding-left: 0;
-    margin-left: 200px;
+    margin-left: 150px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -110,7 +110,7 @@ li:first-child {
 
 .footer {
     width: 100%;
-    background-color: lightgrey; }
+    background-color: #fff; }
 
 .shadow {
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
@@ -170,23 +170,38 @@ li:first-child {
     border: 1px solid #eeeeee; }
 
 .widget .box {
-    height: 150px;
     overflow: auto;
     border: 1px solid #eeeeee;
-    border-bottom-width: 5px;
     box-sizing: border-box;
     padding: 10px;
-    background-color: #eeeeee;
-    border-radius: 3px; }
+    background-color: #F9F9F9;
+    border-radius: 3px;
+    height: 150px; }
 
 .box .box-header, .box h3 {
-    font-family: 14px; }
+    font-size: 14px; }
 
 .box .social {
     font-size: 36px; }
 
+.dashboard-panel {
+    min-height: 200px;
+    border: 1px solid #eeeeee;
+    background-color: #F9F9F9;
+    padding: 20px; }
+    .dashboard-panel-heading {
+        padding: 0 0 10px 0;
+        margin: 0 0 10px;
+        border-bottom: 1px solid #eeeeee;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase; }
+
 .widget *[class^="col-md-"] {
     padding: 0 8px 0 8px; }
+
+section, .section, .widget {
+    margin-bottom: 50px; }
 
 .tbl {
     display: table;

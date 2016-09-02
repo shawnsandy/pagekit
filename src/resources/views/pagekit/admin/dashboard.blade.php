@@ -3,10 +3,6 @@
 
     <div class="container-fluid">
         <div class="widget">
-
-            <h3>
-                <i class="material material_dashboard"></i> Dashboard
-            </h3>
             <div class="row">
                 <div class="col-md-3">
                     <div class="box tbl">
@@ -58,83 +54,46 @@
                 </div>
             </div>
         </div>
-
-        <hr>
-        <div class="row">
+        <div class="row section">
             <div class="col-md-12">
-                <h3>Post</h3>
-                <div class="well">
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"> <img alt="64x64" class="media-object" data-src="holder.js/64x64"
-                                              src="http://placehold.it/64x64">
-                            </a>
-                        </div>
-
-                        <div class="media-body"><h4 class="media-heading">Media heading</h4> Cras sit amet nibh libero,
-                            in
-                            gravida
-                            nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in
-                            vulputate
-                            at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                            congue
-                            felis in faucibus.
-                        </div>
+                <div class="dashboard-panel">
+                    <div class="dashboard-panel-heading">
+                       <i class="material material_info_outline"></i> Custom Panel
                     </div>
-
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"> <img alt="64x64" class="media-object" data-src="holder.js/64x64"
-                                              src="http://placehold.it/64x64">
-                            </a>
-                        </div>
-                        <div class="media-body"><h4 class="media-heading">Media heading</h4> Cras sit amet nibh libero,
-                            in
-                            gravida
-                            nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in
-                            vulputate
-                            at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                            congue
-                            felis in faucibus.
-                        </div>
-                    </div>
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"> <img alt="64x64" class="media-object" data-src="holder.js/64x64"
-                                              src="http://placehold.it/64x64">
-                            </a>
-                        </div>
-                        <div class="media-body"><h4 class="media-heading">Media heading</h4> Cras sit amet nibh libero,
-                            in
-                            gravida
-                            nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in
-                            vulputate
-                            at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                            congue
-                            felis in faucibus.
-                        </div>
-                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa facilis placeat quam. Aspernatur
+                        beatae commodi corporis debitis deleniti dolorem ex explicabo itaque iure laudantium nesciunt
+                        non, pariatur praesentium quibusdam ratione, repellendus saepe, similique sint vero voluptas.
+                        Consequatur deleniti illum mollitia. Accusantium aliquam animi aut dolor, doloremque officiis
+                        quae quasi repellat.
+                    </p>
                 </div>
             </div>
 
         </div>
-        <hr>
+
         <div class="row">
             <div class="col-md-12">
-                <h3>Gallery</h3>
-                <div class="row">
-                    <div class="team-images text-center">
-                        <img src="http://placehold.it/140x140" class="img-circle">
-                        <img src="http://placehold.it/140x140" class="img-circle">
-                        <img src="http://placehold.it/140x140" class="img-circle">
-                        <img src="http://placehold.it/140x140" class="img-circle">
-                        <img src="http://placehold.it/140x140" class="img-circle">
-                        <img src="http://placehold.it/140x140" class="img-circle">
+
+                <div class="dashboard-panel">
+                    <div class="dashboard-panel-heading">
+                        <i class="material material_photo"></i> Gallery
+                    </div>
+                    <div class="row">
+                        <div class="team-images">
+                            <img src="http://placehold.it/140x140" class="">
+                            <img src="http://placehold.it/140x140" class="">
+                            <img src="http://placehold.it/140x140" class="">
+                            <img src="http://placehold.it/140x140" class="">
+                            <img src="http://placehold.it/140x140" class="">
+                            <img src="http://placehold.it/140x140" class="">
+                        </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
+
     </div>
 @endsection
 @push('styles')

@@ -47,12 +47,14 @@
                 </div>
             </div>
             <div class="table-cell main-dashboard">
-                <nav class="">
+                <nav class="section">
                     <div class="menu-table">
                         <div class="menu-table-row">
                             <div class="logo menu-table-cell">
                                 <div class="container-fluid">
-                                    <i class="material material_explore"></i>
+                                  <h4 class="text-uppercase">
+                                      {{--<i class="material material_explore"></i> --}}
+                                      PageKit <small>Admin Starter</small></h4>
                                 </div>
                             </div>
                         </div>
@@ -64,22 +66,16 @@
                             @yield('content')
                         </div>
                     </div>
+                    @include('page::shared.admin-footer')
                 </div>
             </div>
             @section('sidebar-right')
                 <div class="table-cell sidebar-right">
-                    <nav>
-                        <div class="menu-table">
-                            <div class="menu-table-row">
-                                <div class="logo menu-table-cell">
-                                    <span class="material material_view_stream"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
+
                     <div class="container-fluid">
 
                         <div class="">
+                            <h5 class="text-uppercase"><i class="material material_info_outline"></i> Information</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem consequatur
                                 corporis dolorem doloribus error esse explicabo iure minus nam, non obcaecati odit
                                 perferendis quibusdam quisquam reprehenderit sapiente sit, vel voluptatibus, voluptatum?
