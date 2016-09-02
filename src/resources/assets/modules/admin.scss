@@ -149,6 +149,7 @@ li:first-child {
 
 }
 
+
 .footer {
   width: 100%;
   background-color: #fff;
@@ -196,6 +197,14 @@ li:first-child {
 .menu-table-cell {
   display: table-cell;
   vertical-align: middle;
+  padding: 0 15px 0 15px;
+}
+
+.logo.menu-table-cell {
+  width: 300px;
+  //background-color: #eeeeee;
+  text-align: center;
+  border-right: 1px solid #eee;
 }
 
 .sidebar {
