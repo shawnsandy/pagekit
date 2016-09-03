@@ -80,12 +80,9 @@
                     <div class="container-fluid">
 
                         <div class="">
-                            <h4 class="text-uppercase"><i class="material material_info_outline"></i> Information</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem consequatur
-                                corporis dolorem doloribus error esse explicabo iure minus nam, non obcaecati odit
-                                perferendis quibusdam quisquam reprehenderit sapiente sit, vel voluptatibus, voluptatum?
-                                Aliquam architecto ducimus, est facere fugit harum iure, maiores optio reiciendis
-                                repudiandae veniam.</p>
+                            <h4 class="text-uppercase"><i class="material material_info_outline"></i></h4>
+                            <p>PageKit admin starter is an easy to use bootstrap compatible admin dashboard created to help you build better backends for your laravel applications. Please visit our
+                                <a href="//github.com/shawnsandy/pagekit">Github page for setup instructions.</a></p>
                         </div>
                     </div>
                 </div>
