@@ -1,5 +1,5 @@
 <footer class="footer">
     <p class="text-center">
-        &copy; Copyright
+       {{ date('Y') }} &copy; Copyright
     </p>
 </footer>
