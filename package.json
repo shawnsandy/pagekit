@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --output-style nested --indent-type space --indent-width 4 -r -o src/public/css/pagekit src/resources/assets/modules && notify -t 'SCSS Compiled' -m 'Completed' ",
+    "scss": "node-sass --output-style nested --indent-type space --indent-width 4 -r -o src/public/css/pagekit src/resources/assets && notify -t 'SCSS Compiled' -m 'Completed' ",
     "autoprefixer": "postcss -u autoprefixer -r /src/public/css/pagekit/*.css",
     "fonts": "cp -R packages/typicons.font/src/font src/public/vendor/typicons",
     "animatecss": "cp -R packages/animate.css/animate.css src/public/vendor",
