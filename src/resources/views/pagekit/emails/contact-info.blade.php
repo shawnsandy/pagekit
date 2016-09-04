@@ -8,5 +8,3 @@
     <p>{{ $data['message'] }}</p>
 
 </div>
-
-
