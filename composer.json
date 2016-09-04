@@ -21,7 +21,6 @@
         "barryvdh/laravel-debugbar": "^2.2",
         "doctrine/dbal": "^2.5",
         "greggilbert/recaptcha": "^2.1",
-        "illuminate/support": "~5.1",
         "laracasts/flash": "^2.0",
         "laracasts/generators": "^1.1",
         "laracasts/utilities": "^2.1",
