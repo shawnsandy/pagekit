@@ -22,6 +22,8 @@ Route::group( ['prefix' => 'page','middleware' => ['web'] ], function () {
         return view('page::'.$name, compact('token'));
     });
 
+    Route::post('/send/mail/', 'ShawnSandy\PageKit\Controllers\PageKitController@contactUs');
+
 });
 
 Route::group(['prefix' => 'dash', 'middleware' => 'web'], function(){

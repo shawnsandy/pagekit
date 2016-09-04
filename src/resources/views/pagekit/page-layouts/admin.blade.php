@@ -92,9 +92,7 @@
 @endsection
 
 @push('styles')
-
 {{--<link rel='stylesheet' href='/vendor/typicons/typicons.min.css' />--}}
-<link rel='stylesheet' href='/vendor/animate.css'/>
 <link rel='stylesheet' href='/css/pagekit/admin.css'/>
 <link href="/css/pagekit/fonts/material-icons/style.css" rel="stylesheet">
 <link href="/css/pagekit/fonts/social/style.css" rel="stylesheet">
