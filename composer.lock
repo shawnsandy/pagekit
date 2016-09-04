@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "196d7ff220f48bb0303d92640a6851a7",
-    "content-hash": "b9b16284f998d48248ef248ee07627a4",
+    "hash": "39c08419691734baebf5d54762921ffb",
+    "content-hash": "8d1d95000de3768a721c608b2c76a39c",
     "packages": [
         {
             "name": "adamwathan/bootforms",
@@ -90,6 +90,49 @@
             ],
             "description": "A basic framework agnostic form building package with a few extra niceties like remembering old input and retrieving error messages.",
             "time": "2016-05-10 01:07:01"
+        },
+        {
+            "name": "balping/laravel-blade-function",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/balping/laravel-blade-function.git",
+                "reference": "7e15c06c933b96d960eb8873d37eb681130948a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/balping/laravel-blade-function/zipball/7e15c06c933b96d960eb8873d37eb681130948a7",
+                "reference": "7e15c06c933b96d960eb8873d37eb681130948a7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Balping\\BladeFunction\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Balázs Kovács",
+                    "email": "balping314@gmail.com"
+                }
+            ],
+            "description": "This Laravel 5.1+ package lets you declare functions inside blade templates.",
+            "keywords": [
+                "blade",
+                "directive",
+                "function",
+                "laravel",
+                "template"
+            ],
+            "time": "2016-08-27 16:17:10"
         },
         {
             "name": "barryvdh/laravel-debugbar",
