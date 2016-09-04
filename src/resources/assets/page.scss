@@ -10,9 +10,9 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: table;
   color: $gray;
 }
+
 
 header {
   height: 300px;
@@ -90,7 +90,9 @@ footer {
   text-align: center;
   vertical-align: middle;
 }
-
+.layout-left {
+  text-align: left;
+}
 .g-map {
   padding: 10px;
   box-sizing: border-box;
@@ -101,6 +103,7 @@ footer {
 .cover {
   height: 100%;
 }
+
 
 #contact-form, .borderless {
   label {
