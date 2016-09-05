@@ -149,6 +149,15 @@ History
 
 ## Change Log
 
+Version 1.4.6 -- PageKit RC-1a
+
+Full mail integration
+Adds a admin dashboard template
+Refactored the vendor publish tags to pagekit- prefix
+UI Updates
+Bug Fixes
+
+
 Version 1.3.7
 
 Animate On Scroll Library install
