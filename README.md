@@ -151,11 +151,15 @@ History
 
 Version 1.4.6 -- PageKit RC-1a
 
+Prepping for official release
+
 Full mail integration
 Adds a admin dashboard template
 Refactored the vendor publish tags to pagekit- prefix
+Changed from font-awesome to Material-Icons
 UI Updates
 Bug Fixes
+
 
 
 Version 1.3.7
