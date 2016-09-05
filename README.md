@@ -2,7 +2,7 @@
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/2b15870b-8188-40ef-be16-96fea6a81bb9/mini.png)](https://insight.sensiolabs.com/projects/2b15870b-8188-40ef-be16-96fea6a81bb9) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5decf43d0f574e7a833dacfda9ad676c)](https://www.codacy.com/app/shawnsandy04/pagekit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shawnsandy/pagekit&amp;utm_campaign=Badge_Grade)
 
-PageKit is a quick and easy way to replace the standard Laravel install page with a set of clean and modern Start page's for your application. Allowing you to deploy and launch a Laravel based marketing / promotional site in minutes. While you focus on the development. 
+PageKit is a quick and easy way to upgrade the standard Laravel install page with a clean and modern Starter website or default pages. Allowing you to deploy and launch a Laravel based static marketing / promotional site in minutes. While you focus on the prouduct design and development. 
 
 ![PageKit Screenshot](pagekit.png)
 
@@ -35,7 +35,7 @@ php artisan vendor:publish --provider="ShawnSandy\PageKit\PageKitServiceProvider
 
 __Publish tags__
 
-You can publish individual pagekit tags using `--tags`, *please note* that the `--pagekit-asssets` tag is required for page to display correctly.
+You can publish individual pagekit tags using `--tags`, *please note* that the `--pagekit-asssets` tag is required for page to display correctly. **BTW this is my preferred method of install**.
 
 ```php
 
@@ -51,12 +51,14 @@ php artisan vendor:publish --tag=name
 ```
 
 **PageKit tags**
-pagekit-
+
 * `--tag=pagekit-assets` publishes your pagekit public assets / files to `/public/` 
 * `--tag=pagekit-views` publishes your views to `vendor\pagekit`
 * `--tag=pagekit-config` publishes `config\pagekit` to `config`
 
-### Install for custom Package development 
+You can also use the `--force` to overwrite previously published files - `--tag=pagekit-assets --force`.
+
+### Install for custom/package development 
 
 To customize or use the package to start your own.
 
@@ -130,11 +132,11 @@ header-background-image' => "https://static.pexels.com/photos/129569/pexels-phot
 
 ## TODO
 
-- [ ] Contact form
+- [x] Contact form
 - [ ] Social media links
 - [ ] Add a static page editor
 - [ ] Addon style selectors
-- [ ] ...
+- [ ] Custom artisan command
 
 ## Contributing
 
