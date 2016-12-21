@@ -46,3 +46,11 @@ gulp.task('images', function(){
         .pipe(gulp.dest('src/img/'))
 });
 
+gulp.task('copy-packages', function(){
+    gulp.src([
+        './node_modules/font-awesome/**/**.*',
+        './node_modules/aos/dist/**/*.*'
+        ], { 'base' : 'node_modules'})
+        .pipe(gulp.dest('./src/public/vendors'))
+});
+
