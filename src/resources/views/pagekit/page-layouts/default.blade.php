@@ -16,8 +16,8 @@
     <title>{{ config('pagekit.title', 'Page Title - PageKit.') }} </title>
     <link rel="stylesheet" href="/css/pagekit/app.css">
     <link rel="stylesheet" href="/css/pagekit/page.css">
-    <link rel="stylesheet" href="/vendor/aos/aos.css" />
-    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/vendors/aos/aos.css" />
+    <link rel="stylesheet" href="/vendors/font-awesome/css/font-awesome.min.css" />
 
      @if(config('pagekit.branding'))
     <style>
@@ -66,7 +66,7 @@
 
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<script src="/vendor/aos/aos.js"></script>
+<script src="/vendors/aos/aos.js"></script>
 <script>
     AOS.init();
 </script>
