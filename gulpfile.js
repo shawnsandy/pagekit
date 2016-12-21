@@ -48,7 +48,8 @@ gulp.task('images', function(){
 
 gulp.task('copy-packages', function(){
     gulp.src([
-        './node_modules/font-awesome/**/**.*',
+        './node_modules/font-awesome/css/**.*',
+        './node_modules/font-awesome/fonts/**.*',
         './node_modules/aos/dist/**/*.*'
         ], { 'base' : 'node_modules'})
         .pipe(gulp.dest('./src/public/vendors'))
